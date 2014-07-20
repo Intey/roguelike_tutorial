@@ -1,0 +1,1171 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ABS	include/libtcod.h	172;"	d
+CLAMP	include/libtcod.h	173;"	d
+FOV_BASIC	include/fov_types.h	/^	FOV_BASIC,$/;"	e	enum:__anon26
+FOV_DIAMOND	include/fov_types.h	/^	FOV_DIAMOND,$/;"	e	enum:__anon26
+FOV_PERMISSIVE	include/fov_types.h	52;"	d
+FOV_PERMISSIVE_0	include/fov_types.h	/^	FOV_PERMISSIVE_0,$/;"	e	enum:__anon26
+FOV_PERMISSIVE_1	include/fov_types.h	/^	FOV_PERMISSIVE_1,$/;"	e	enum:__anon26
+FOV_PERMISSIVE_2	include/fov_types.h	/^	FOV_PERMISSIVE_2,$/;"	e	enum:__anon26
+FOV_PERMISSIVE_3	include/fov_types.h	/^	FOV_PERMISSIVE_3,$/;"	e	enum:__anon26
+FOV_PERMISSIVE_4	include/fov_types.h	/^	FOV_PERMISSIVE_4,$/;"	e	enum:__anon26
+FOV_PERMISSIVE_5	include/fov_types.h	/^	FOV_PERMISSIVE_5,$/;"	e	enum:__anon26
+FOV_PERMISSIVE_6	include/fov_types.h	/^	FOV_PERMISSIVE_6,$/;"	e	enum:__anon26
+FOV_PERMISSIVE_7	include/fov_types.h	/^	FOV_PERMISSIVE_7,$/;"	e	enum:__anon26
+FOV_PERMISSIVE_8	include/fov_types.h	/^	FOV_PERMISSIVE_8,$/;"	e	enum:__anon26
+FOV_RESTRICTIVE	include/fov_types.h	/^	FOV_RESTRICTIVE,$/;"	e	enum:__anon26
+FOV_SHADOW	include/fov_types.h	/^	FOV_SHADOW,$/;"	e	enum:__anon26
+ITCODBspCallback	include/bsp.hpp	/^class TCODLIB_API ITCODBspCallback {$/;"	c
+ITCODParserListener	include/parser.hpp	/^class TCODLIB_API ITCODParserListener {$/;"	c
+ITCODParserListener	include/parser.hpp	/^class TCODLIB_API ITCODParserListener;$/;"	v	typeref:class:TCODLIB_API
+ITCODPathCallback	include/path.hpp	/^class TCODLIB_API ITCODPathCallback {$/;"	c
+ITCODSDLRenderer	include/sys.hpp	/^class TCODLIB_API ITCODSDLRenderer {$/;"	c
+LERP	include/libtcod.h	174;"	d
+MAX	include/libtcod.h	170;"	d
+MIN	include/libtcod.h	171;"	d
+NB_FOV_ALGORITHMS	include/fov_types.h	/^	NB_FOV_ALGORITHMS } TCOD_fov_algorithm_t;$/;"	e	enum:__anon26
+Q	include/libtcod_int.h	/^	uint32 Q[4096], c;$/;"	m	struct:__anon32
+SDL_renderer_t	include/sys.h	/^typedef void (*SDL_renderer_t) (void *sdl_surface);$/;"	t
+TCODBsp	include/bsp.hpp	/^	TCODBsp() : level(0) {}$/;"	f	class:TCODBsp
+TCODBsp	include/bsp.hpp	/^	TCODBsp(int x,int y,int w, int h) : x(x),y(y),w(w),h(h),level(0) {}$/;"	f	class:TCODBsp
+TCODBsp	include/bsp.hpp	/^class TCODLIB_API TCODBsp : public TCODTree {$/;"	c
+TCODColor	include/color.hpp	/^	TCODColor() : r(0),g(0),b(0) {}$/;"	f	class:TCODColor
+TCODColor	include/color.hpp	/^	TCODColor(const TCOD_color_t &col): r(col.r), g(col.g), b(col.b) {}$/;"	f	class:TCODColor
+TCODColor	include/color.hpp	/^	TCODColor(int r, int g, int b): r(r), g(g), b(b) {}$/;"	f	class:TCODColor
+TCODColor	include/color.hpp	/^	TCODColor(uint8 r, uint8 g, uint8 b): r(r), g(g), b(b) {}$/;"	f	class:TCODColor
+TCODColor	include/color.hpp	/^class TCODLIB_API TCODColor {$/;"	c
+TCODConsole	include/console.hpp	/^	TCODConsole(TCOD_console_t con) : data(con) {}$/;"	f	class:TCODConsole
+TCODConsole	include/console.hpp	/^class TCODLIB_API TCODConsole {$/;"	c
+TCODDijkstra	include/path.hpp	/^class TCODLIB_API TCODDijkstra {$/;"	c
+TCODHeightMap	include/heightmap.hpp	/^class TCODLIB_API TCODHeightMap {$/;"	c
+TCODImage	include/image.hpp	/^	TCODImage(TCOD_image_t img) : data(img), deleteData(false) {}$/;"	f	class:TCODImage
+TCODImage	include/image.hpp	/^class TCODLIB_API TCODImage {$/;"	c
+TCODK_0	include/console_types.h	/^	TCODK_0,$/;"	e	enum:__anon4
+TCODK_1	include/console_types.h	/^	TCODK_1,$/;"	e	enum:__anon4
+TCODK_2	include/console_types.h	/^	TCODK_2,$/;"	e	enum:__anon4
+TCODK_3	include/console_types.h	/^	TCODK_3,$/;"	e	enum:__anon4
+TCODK_4	include/console_types.h	/^	TCODK_4,$/;"	e	enum:__anon4
+TCODK_5	include/console_types.h	/^	TCODK_5,$/;"	e	enum:__anon4
+TCODK_6	include/console_types.h	/^	TCODK_6,$/;"	e	enum:__anon4
+TCODK_7	include/console_types.h	/^	TCODK_7,$/;"	e	enum:__anon4
+TCODK_8	include/console_types.h	/^	TCODK_8,$/;"	e	enum:__anon4
+TCODK_9	include/console_types.h	/^	TCODK_9,$/;"	e	enum:__anon4
+TCODK_ALT	include/console_types.h	/^	TCODK_ALT,$/;"	e	enum:__anon4
+TCODK_APPS	include/console_types.h	/^	TCODK_APPS,$/;"	e	enum:__anon4
+TCODK_BACKSPACE	include/console_types.h	/^	TCODK_BACKSPACE,$/;"	e	enum:__anon4
+TCODK_CAPSLOCK	include/console_types.h	/^	TCODK_CAPSLOCK,$/;"	e	enum:__anon4
+TCODK_CHAR	include/console_types.h	/^	TCODK_CHAR$/;"	e	enum:__anon4
+TCODK_CONTROL	include/console_types.h	/^	TCODK_CONTROL,$/;"	e	enum:__anon4
+TCODK_DELETE	include/console_types.h	/^	TCODK_DELETE,$/;"	e	enum:__anon4
+TCODK_DOWN	include/console_types.h	/^	TCODK_DOWN,$/;"	e	enum:__anon4
+TCODK_END	include/console_types.h	/^	TCODK_END,$/;"	e	enum:__anon4
+TCODK_ENTER	include/console_types.h	/^	TCODK_ENTER,$/;"	e	enum:__anon4
+TCODK_ESCAPE	include/console_types.h	/^	TCODK_ESCAPE,$/;"	e	enum:__anon4
+TCODK_F1	include/console_types.h	/^	TCODK_F1,$/;"	e	enum:__anon4
+TCODK_F10	include/console_types.h	/^	TCODK_F10,$/;"	e	enum:__anon4
+TCODK_F11	include/console_types.h	/^	TCODK_F11,$/;"	e	enum:__anon4
+TCODK_F12	include/console_types.h	/^	TCODK_F12,$/;"	e	enum:__anon4
+TCODK_F2	include/console_types.h	/^	TCODK_F2,$/;"	e	enum:__anon4
+TCODK_F3	include/console_types.h	/^	TCODK_F3,$/;"	e	enum:__anon4
+TCODK_F4	include/console_types.h	/^	TCODK_F4,$/;"	e	enum:__anon4
+TCODK_F5	include/console_types.h	/^	TCODK_F5,$/;"	e	enum:__anon4
+TCODK_F6	include/console_types.h	/^	TCODK_F6,$/;"	e	enum:__anon4
+TCODK_F7	include/console_types.h	/^	TCODK_F7,$/;"	e	enum:__anon4
+TCODK_F8	include/console_types.h	/^	TCODK_F8,$/;"	e	enum:__anon4
+TCODK_F9	include/console_types.h	/^	TCODK_F9,$/;"	e	enum:__anon4
+TCODK_HOME	include/console_types.h	/^	TCODK_HOME,$/;"	e	enum:__anon4
+TCODK_INSERT	include/console_types.h	/^	TCODK_INSERT,$/;"	e	enum:__anon4
+TCODK_KP0	include/console_types.h	/^	TCODK_KP0,$/;"	e	enum:__anon4
+TCODK_KP1	include/console_types.h	/^	TCODK_KP1,$/;"	e	enum:__anon4
+TCODK_KP2	include/console_types.h	/^	TCODK_KP2,$/;"	e	enum:__anon4
+TCODK_KP3	include/console_types.h	/^	TCODK_KP3,$/;"	e	enum:__anon4
+TCODK_KP4	include/console_types.h	/^	TCODK_KP4,$/;"	e	enum:__anon4
+TCODK_KP5	include/console_types.h	/^	TCODK_KP5,$/;"	e	enum:__anon4
+TCODK_KP6	include/console_types.h	/^	TCODK_KP6,$/;"	e	enum:__anon4
+TCODK_KP7	include/console_types.h	/^	TCODK_KP7,$/;"	e	enum:__anon4
+TCODK_KP8	include/console_types.h	/^	TCODK_KP8,$/;"	e	enum:__anon4
+TCODK_KP9	include/console_types.h	/^	TCODK_KP9,$/;"	e	enum:__anon4
+TCODK_KPADD	include/console_types.h	/^	TCODK_KPADD,$/;"	e	enum:__anon4
+TCODK_KPDEC	include/console_types.h	/^	TCODK_KPDEC,$/;"	e	enum:__anon4
+TCODK_KPDIV	include/console_types.h	/^	TCODK_KPDIV,$/;"	e	enum:__anon4
+TCODK_KPENTER	include/console_types.h	/^	TCODK_KPENTER,$/;"	e	enum:__anon4
+TCODK_KPMUL	include/console_types.h	/^	TCODK_KPMUL,$/;"	e	enum:__anon4
+TCODK_KPSUB	include/console_types.h	/^	TCODK_KPSUB,$/;"	e	enum:__anon4
+TCODK_LEFT	include/console_types.h	/^	TCODK_LEFT,$/;"	e	enum:__anon4
+TCODK_LWIN	include/console_types.h	/^	TCODK_LWIN,$/;"	e	enum:__anon4
+TCODK_NONE	include/console_types.h	/^	TCODK_NONE,$/;"	e	enum:__anon4
+TCODK_NUMLOCK	include/console_types.h	/^	TCODK_NUMLOCK,$/;"	e	enum:__anon4
+TCODK_PAGEDOWN	include/console_types.h	/^	TCODK_PAGEDOWN,$/;"	e	enum:__anon4
+TCODK_PAGEUP	include/console_types.h	/^	TCODK_PAGEUP,$/;"	e	enum:__anon4
+TCODK_PAUSE	include/console_types.h	/^	TCODK_PAUSE,$/;"	e	enum:__anon4
+TCODK_PRINTSCREEN	include/console_types.h	/^	TCODK_PRINTSCREEN,$/;"	e	enum:__anon4
+TCODK_RIGHT	include/console_types.h	/^	TCODK_RIGHT,$/;"	e	enum:__anon4
+TCODK_RWIN	include/console_types.h	/^	TCODK_RWIN,$/;"	e	enum:__anon4
+TCODK_SCROLLLOCK	include/console_types.h	/^	TCODK_SCROLLLOCK,$/;"	e	enum:__anon4
+TCODK_SHIFT	include/console_types.h	/^	TCODK_SHIFT,$/;"	e	enum:__anon4
+TCODK_SPACE	include/console_types.h	/^	TCODK_SPACE,$/;"	e	enum:__anon4
+TCODK_TAB	include/console_types.h	/^	TCODK_TAB,$/;"	e	enum:__anon4
+TCODK_UP	include/console_types.h	/^	TCODK_UP,$/;"	e	enum:__anon4
+TCODLIB_API	include/libtcod.h	140;"	d
+TCODLIB_API	include/libtcod.h	142;"	d
+TCODLIB_API	include/libtcod.h	145;"	d
+TCODLex	include/lex.hpp	/^class TCODLIB_API TCODLex {$/;"	c
+TCODLine	include/bresenham.hpp	/^class TCODLIB_API TCODLine {$/;"	c
+TCODLineListener	include/bresenham.hpp	/^class TCODLIB_API TCODLineListener {$/;"	c
+TCODList	include/list.hpp	/^	TCODList() {$/;"	f	class:TCODList
+TCODList	include/list.hpp	/^	TCODList(const TCODList<T> &l2) {$/;"	f	class:TCODList
+TCODList	include/list.hpp	/^	TCODList(const TCOD_list_t l) {$/;"	f	class:TCODList
+TCODList	include/list.hpp	/^	TCODList(int nbElements) {$/;"	f	class:TCODList
+TCODList	include/list.hpp	/^template <class T> class TCODList {$/;"	c
+TCODMap	include/fov.hpp	/^class TCODLIB_API TCODMap {$/;"	c
+TCODMouse	include/mouse.hpp	/^class TCODLIB_API TCODMouse {$/;"	c
+TCODNamegen	include/namegen.hpp	/^class TCODLIB_API TCODNamegen {$/;"	c
+TCODNoise	include/noise.hpp	/^class TCODLIB_API TCODNoise {$/;"	c
+TCODParser	include/parser.hpp	/^class TCODLIB_API TCODParser {$/;"	c
+TCODParser	include/parser.hpp	/^class TCODLIB_API TCODParser;$/;"	v	typeref:class:TCODLIB_API
+TCODParserStruct	include/parser.hpp	/^class TCODLIB_API TCODParserStruct {$/;"	c
+TCODParserStruct	include/parser.hpp	/^class TCODLIB_API TCODParserStruct;$/;"	v	typeref:class:TCODLIB_API
+TCODPath	include/path.hpp	/^class TCODLIB_API TCODPath {$/;"	c
+TCODRandom	include/mersenne.hpp	/^class TCODLIB_API TCODRandom {$/;"	c
+TCODSystem	include/sys.hpp	/^class TCODLIB_API TCODSystem {$/;"	c
+TCODText	include/txtfield.hpp	/^class TCODLIB_API TCODText {$/;"	c
+TCODTree	include/tree.hpp	/^	TCODTree() : next(NULL),father(NULL),sons(NULL){}$/;"	f	class:TCODTree
+TCODTree	include/tree.hpp	/^class TCODLIB_API TCODTree {$/;"	c
+TCODZip	include/zip.hpp	/^class TCODLIB_API TCODZip {$/;"	c
+TCOD_64BITS	include/libtcod.h	60;"	d
+TCOD_64BITS	include/libtcod.h	72;"	d
+TCOD_64BITS	include/libtcod.h	79;"	d
+TCOD_64BITS	include/libtcod.h	88;"	d
+TCOD_AMBER	include/libtcod_int.h	348;"	d
+TCOD_ASSERT	include/libtcod_int.h	152;"	d
+TCOD_ASSERT	include/libtcod_int.h	157;"	d
+TCOD_AZURE	include/libtcod_int.h	357;"	d
+TCOD_BKGND_ADD	include/console_types.h	/^	TCOD_BKGND_ADD,$/;"	e	enum:__anon8
+TCOD_BKGND_ADDA	include/console_types.h	/^	TCOD_BKGND_ADDA,$/;"	e	enum:__anon8
+TCOD_BKGND_ADDALPHA	include/console.h	34;"	d
+TCOD_BKGND_ALPH	include/console_types.h	/^	TCOD_BKGND_ALPH,$/;"	e	enum:__anon8
+TCOD_BKGND_ALPHA	include/console.h	33;"	d
+TCOD_BKGND_BURN	include/console_types.h	/^	TCOD_BKGND_BURN,$/;"	e	enum:__anon8
+TCOD_BKGND_COLOR_BURN	include/console_types.h	/^	TCOD_BKGND_COLOR_BURN,$/;"	e	enum:__anon8
+TCOD_BKGND_COLOR_DODGE	include/console_types.h	/^	TCOD_BKGND_COLOR_DODGE,$/;"	e	enum:__anon8
+TCOD_BKGND_DARKEN	include/console_types.h	/^	TCOD_BKGND_DARKEN,$/;"	e	enum:__anon8
+TCOD_BKGND_DEFAULT	include/console_types.h	/^	TCOD_BKGND_DEFAULT$/;"	e	enum:__anon8
+TCOD_BKGND_LIGHTEN	include/console_types.h	/^	TCOD_BKGND_LIGHTEN,$/;"	e	enum:__anon8
+TCOD_BKGND_MULTIPLY	include/console_types.h	/^	TCOD_BKGND_MULTIPLY,$/;"	e	enum:__anon8
+TCOD_BKGND_NONE	include/console_types.h	/^	TCOD_BKGND_NONE,$/;"	e	enum:__anon8
+TCOD_BKGND_OVERLAY	include/console_types.h	/^	TCOD_BKGND_OVERLAY,$/;"	e	enum:__anon8
+TCOD_BKGND_SCREEN	include/console_types.h	/^	TCOD_BKGND_SCREEN,$/;"	e	enum:__anon8
+TCOD_BKGND_SET	include/console_types.h	/^	TCOD_BKGND_SET,$/;"	e	enum:__anon8
+TCOD_BLACK	include/libtcod_int.h	234;"	d
+TCOD_BLUE	include/libtcod_int.h	358;"	d
+TCOD_BRASS	include/libtcod_int.h	437;"	d
+TCOD_CELADON	include/libtcod_int.h	443;"	d
+TCOD_CENTER	include/console_types.h	/^	TCOD_CENTER $/;"	e	enum:__anon12
+TCOD_CHARTREUSE	include/libtcod_int.h	351;"	d
+TCOD_CHAR_ARROW2_E	include/console_types.h	/^	TCOD_CHAR_ARROW2_E=16,$/;"	e	enum:__anon6
+TCOD_CHAR_ARROW2_N	include/console_types.h	/^	TCOD_CHAR_ARROW2_N=30,$/;"	e	enum:__anon6
+TCOD_CHAR_ARROW2_S	include/console_types.h	/^	TCOD_CHAR_ARROW2_S=31,$/;"	e	enum:__anon6
+TCOD_CHAR_ARROW2_W	include/console_types.h	/^	TCOD_CHAR_ARROW2_W=17,$/;"	e	enum:__anon6
+TCOD_CHAR_ARROW_E	include/console_types.h	/^	TCOD_CHAR_ARROW_E=26,$/;"	e	enum:__anon6
+TCOD_CHAR_ARROW_N	include/console_types.h	/^	TCOD_CHAR_ARROW_N=24,$/;"	e	enum:__anon6
+TCOD_CHAR_ARROW_S	include/console_types.h	/^	TCOD_CHAR_ARROW_S=25,$/;"	e	enum:__anon6
+TCOD_CHAR_ARROW_W	include/console_types.h	/^	TCOD_CHAR_ARROW_W=27,$/;"	e	enum:__anon6
+TCOD_CHAR_BLOCK1	include/console_types.h	/^	TCOD_CHAR_BLOCK1=176,$/;"	e	enum:__anon6
+TCOD_CHAR_BLOCK2	include/console_types.h	/^	TCOD_CHAR_BLOCK2=177,$/;"	e	enum:__anon6
+TCOD_CHAR_BLOCK3	include/console_types.h	/^	TCOD_CHAR_BLOCK3=178,$/;"	e	enum:__anon6
+TCOD_CHAR_BULLET	include/console_types.h	/^	TCOD_CHAR_BULLET = 7,$/;"	e	enum:__anon6
+TCOD_CHAR_BULLET_INV	include/console_types.h	/^	TCOD_CHAR_BULLET_INV = 8,$/;"	e	enum:__anon6
+TCOD_CHAR_BULLET_SQUARE	include/console_types.h	/^	TCOD_CHAR_BULLET_SQUARE = 254,$/;"	e	enum:__anon6
+TCOD_CHAR_CENT	include/console_types.h	/^	TCOD_CHAR_CENT = 189,$/;"	e	enum:__anon6
+TCOD_CHAR_CHECKBOX_SET	include/console_types.h	/^	TCOD_CHAR_CHECKBOX_SET=225,$/;"	e	enum:__anon6
+TCOD_CHAR_CHECKBOX_UNSET	include/console_types.h	/^	TCOD_CHAR_CHECKBOX_UNSET=224,$/;"	e	enum:__anon6
+TCOD_CHAR_CLUB	include/console_types.h	/^	TCOD_CHAR_CLUB = 5,$/;"	e	enum:__anon6
+TCOD_CHAR_COPYRIGHT	include/console_types.h	/^	TCOD_CHAR_COPYRIGHT = 184,$/;"	e	enum:__anon6
+TCOD_CHAR_CROSS	include/console_types.h	/^	TCOD_CHAR_CROSS=197,$/;"	e	enum:__anon6
+TCOD_CHAR_CURRENCY	include/console_types.h	/^	TCOD_CHAR_CURRENCY = 207,$/;"	e	enum:__anon6
+TCOD_CHAR_DARROW_H	include/console_types.h	/^	TCOD_CHAR_DARROW_H=29,$/;"	e	enum:__anon6
+TCOD_CHAR_DARROW_V	include/console_types.h	/^	TCOD_CHAR_DARROW_V=18,$/;"	e	enum:__anon6
+TCOD_CHAR_DCROSS	include/console_types.h	/^	TCOD_CHAR_DCROSS=206,$/;"	e	enum:__anon6
+TCOD_CHAR_DHLINE	include/console_types.h	/^	TCOD_CHAR_DHLINE=205,$/;"	e	enum:__anon6
+TCOD_CHAR_DIAMOND	include/console_types.h	/^	TCOD_CHAR_DIAMOND = 4,$/;"	e	enum:__anon6
+TCOD_CHAR_DIVISION	include/console_types.h	/^	TCOD_CHAR_DIVISION = 246,$/;"	e	enum:__anon6
+TCOD_CHAR_DNE	include/console_types.h	/^	TCOD_CHAR_DNE=187,$/;"	e	enum:__anon6
+TCOD_CHAR_DNW	include/console_types.h	/^	TCOD_CHAR_DNW=201,$/;"	e	enum:__anon6
+TCOD_CHAR_DSE	include/console_types.h	/^	TCOD_CHAR_DSE=188,$/;"	e	enum:__anon6
+TCOD_CHAR_DSW	include/console_types.h	/^	TCOD_CHAR_DSW=200,$/;"	e	enum:__anon6
+TCOD_CHAR_DTEEE	include/console_types.h	/^	TCOD_CHAR_DTEEE=204,$/;"	e	enum:__anon6
+TCOD_CHAR_DTEEN	include/console_types.h	/^	TCOD_CHAR_DTEEN=202,$/;"	e	enum:__anon6
+TCOD_CHAR_DTEES	include/console_types.h	/^	TCOD_CHAR_DTEES=203,$/;"	e	enum:__anon6
+TCOD_CHAR_DTEEW	include/console_types.h	/^	TCOD_CHAR_DTEEW=185,$/;"	e	enum:__anon6
+TCOD_CHAR_DVLINE	include/console_types.h	/^	TCOD_CHAR_DVLINE=186,$/;"	e	enum:__anon6
+TCOD_CHAR_EXCLAM_DOUBLE	include/console_types.h	/^	TCOD_CHAR_EXCLAM_DOUBLE = 19,$/;"	e	enum:__anon6
+TCOD_CHAR_FEMALE	include/console_types.h	/^	TCOD_CHAR_FEMALE = 12,$/;"	e	enum:__anon6
+TCOD_CHAR_FUNCTION	include/console_types.h	/^	TCOD_CHAR_FUNCTION = 159,$/;"	e	enum:__anon6
+TCOD_CHAR_GRADE	include/console_types.h	/^	TCOD_CHAR_GRADE = 248,$/;"	e	enum:__anon6
+TCOD_CHAR_HALF	include/console_types.h	/^	TCOD_CHAR_HALF = 171,$/;"	e	enum:__anon6
+TCOD_CHAR_HEART	include/console_types.h	/^	TCOD_CHAR_HEART = 3,$/;"	e	enum:__anon6
+TCOD_CHAR_HLINE	include/console_types.h	/^	TCOD_CHAR_HLINE=196,$/;"	e	enum:__anon6
+TCOD_CHAR_LIGHT	include/console_types.h	/^	TCOD_CHAR_LIGHT = 15,$/;"	e	enum:__anon6
+TCOD_CHAR_MALE	include/console_types.h	/^	TCOD_CHAR_MALE = 11,$/;"	e	enum:__anon6
+TCOD_CHAR_MULTIPLICATION	include/console_types.h	/^	TCOD_CHAR_MULTIPLICATION = 158,$/;"	e	enum:__anon6
+TCOD_CHAR_NE	include/console_types.h	/^	TCOD_CHAR_NE=191,$/;"	e	enum:__anon6
+TCOD_CHAR_NOTE	include/console_types.h	/^	TCOD_CHAR_NOTE = 13,$/;"	e	enum:__anon6
+TCOD_CHAR_NOTE_DOUBLE	include/console_types.h	/^	TCOD_CHAR_NOTE_DOUBLE = 14,$/;"	e	enum:__anon6
+TCOD_CHAR_NW	include/console_types.h	/^	TCOD_CHAR_NW=218,$/;"	e	enum:__anon6
+TCOD_CHAR_ONE_QUARTER	include/console_types.h	/^	TCOD_CHAR_ONE_QUARTER = 172,$/;"	e	enum:__anon6
+TCOD_CHAR_PILCROW	include/console_types.h	/^	TCOD_CHAR_PILCROW = 20,$/;"	e	enum:__anon6
+TCOD_CHAR_POUND	include/console_types.h	/^	TCOD_CHAR_POUND = 156,$/;"	e	enum:__anon6
+TCOD_CHAR_POW1	include/console_types.h	/^	TCOD_CHAR_POW1 = 251,$/;"	e	enum:__anon6
+TCOD_CHAR_POW2	include/console_types.h	/^	TCOD_CHAR_POW2 = 253,$/;"	e	enum:__anon6
+TCOD_CHAR_POW3	include/console_types.h	/^	TCOD_CHAR_POW3 = 252,$/;"	e	enum:__anon6
+TCOD_CHAR_RADIO_SET	include/console_types.h	/^	TCOD_CHAR_RADIO_SET=10,$/;"	e	enum:__anon6
+TCOD_CHAR_RADIO_UNSET	include/console_types.h	/^	TCOD_CHAR_RADIO_UNSET=9,$/;"	e	enum:__anon6
+TCOD_CHAR_RESERVED	include/console_types.h	/^	TCOD_CHAR_RESERVED = 169,$/;"	e	enum:__anon6
+TCOD_CHAR_SE	include/console_types.h	/^	TCOD_CHAR_SE=217,$/;"	e	enum:__anon6
+TCOD_CHAR_SECTION	include/console_types.h	/^	TCOD_CHAR_SECTION = 21,$/;"	e	enum:__anon6
+TCOD_CHAR_SMILIE	include/console_types.h	/^	TCOD_CHAR_SMILIE = 1,$/;"	e	enum:__anon6
+TCOD_CHAR_SMILIE_INV	include/console_types.h	/^	TCOD_CHAR_SMILIE_INV = 2,$/;"	e	enum:__anon6
+TCOD_CHAR_SPADE	include/console_types.h	/^	TCOD_CHAR_SPADE = 6,$/;"	e	enum:__anon6
+TCOD_CHAR_SUBP_DIAG	include/console_types.h	/^	TCOD_CHAR_SUBP_DIAG=230,$/;"	e	enum:__anon6
+TCOD_CHAR_SUBP_E	include/console_types.h	/^	TCOD_CHAR_SUBP_E=231,$/;"	e	enum:__anon6
+TCOD_CHAR_SUBP_N	include/console_types.h	/^	TCOD_CHAR_SUBP_N=228,$/;"	e	enum:__anon6
+TCOD_CHAR_SUBP_NE	include/console_types.h	/^	TCOD_CHAR_SUBP_NE=227,$/;"	e	enum:__anon6
+TCOD_CHAR_SUBP_NW	include/console_types.h	/^	TCOD_CHAR_SUBP_NW=226,$/;"	e	enum:__anon6
+TCOD_CHAR_SUBP_SE	include/console_types.h	/^	TCOD_CHAR_SUBP_SE=229,$/;"	e	enum:__anon6
+TCOD_CHAR_SUBP_SW	include/console_types.h	/^	TCOD_CHAR_SUBP_SW=232,$/;"	e	enum:__anon6
+TCOD_CHAR_SW	include/console_types.h	/^	TCOD_CHAR_SW=192,$/;"	e	enum:__anon6
+TCOD_CHAR_TEEE	include/console_types.h	/^	TCOD_CHAR_TEEE=195,$/;"	e	enum:__anon6
+TCOD_CHAR_TEEN	include/console_types.h	/^	TCOD_CHAR_TEEN=193,$/;"	e	enum:__anon6
+TCOD_CHAR_TEES	include/console_types.h	/^	TCOD_CHAR_TEES=194,$/;"	e	enum:__anon6
+TCOD_CHAR_TEEW	include/console_types.h	/^	TCOD_CHAR_TEEW=180,$/;"	e	enum:__anon6
+TCOD_CHAR_THREE_QUARTERS	include/console_types.h	/^	TCOD_CHAR_THREE_QUARTERS = 243,$/;"	e	enum:__anon6
+TCOD_CHAR_UMLAUT	include/console_types.h	/^	TCOD_CHAR_UMLAUT = 249,$/;"	e	enum:__anon6
+TCOD_CHAR_VLINE	include/console_types.h	/^	TCOD_CHAR_VLINE=179,$/;"	e	enum:__anon6
+TCOD_CHAR_YEN	include/console_types.h	/^	TCOD_CHAR_YEN = 190,$/;"	e	enum:__anon6
+TCOD_COLCTRL_1	include/console_types.h	/^	TCOD_COLCTRL_1 = 1,$/;"	e	enum:__anon7
+TCOD_COLCTRL_2	include/console_types.h	/^	TCOD_COLCTRL_2,$/;"	e	enum:__anon7
+TCOD_COLCTRL_3	include/console_types.h	/^	TCOD_COLCTRL_3,$/;"	e	enum:__anon7
+TCOD_COLCTRL_4	include/console_types.h	/^	TCOD_COLCTRL_4,$/;"	e	enum:__anon7
+TCOD_COLCTRL_5	include/console_types.h	/^	TCOD_COLCTRL_5,$/;"	e	enum:__anon7
+TCOD_COLCTRL_BACK_RGB	include/console_types.h	/^	TCOD_COLCTRL_BACK_RGB,$/;"	e	enum:__anon7
+TCOD_COLCTRL_FORE_RGB	include/console_types.h	/^	TCOD_COLCTRL_FORE_RGB,$/;"	e	enum:__anon7
+TCOD_COLCTRL_NUMBER	include/console_types.h	/^	TCOD_COLCTRL_NUMBER=5,$/;"	e	enum:__anon7
+TCOD_COLCTRL_STOP	include/console_types.h	/^	TCOD_COLCTRL_STOP$/;"	e	enum:__anon7
+TCOD_COLOR_AMBER	include/color.h	/^	TCOD_COLOR_AMBER,$/;"	e	enum:__anon2
+TCOD_COLOR_AZURE	include/color.h	/^	TCOD_COLOR_AZURE,$/;"	e	enum:__anon2
+TCOD_COLOR_BLUE	include/color.h	/^	TCOD_COLOR_BLUE,$/;"	e	enum:__anon2
+TCOD_COLOR_CHARTREUSE	include/color.h	/^	TCOD_COLOR_CHARTREUSE,$/;"	e	enum:__anon2
+TCOD_COLOR_CRIMSON	include/color.h	/^	TCOD_COLOR_CRIMSON,$/;"	e	enum:__anon2
+TCOD_COLOR_CYAN	include/color.h	/^	TCOD_COLOR_CYAN,$/;"	e	enum:__anon2
+TCOD_COLOR_DARK	include/color.h	/^	TCOD_COLOR_DARK,$/;"	e	enum:__anon3
+TCOD_COLOR_DARKER	include/color.h	/^	TCOD_COLOR_DARKER,$/;"	e	enum:__anon3
+TCOD_COLOR_DARKEST	include/color.h	/^	TCOD_COLOR_DARKEST,$/;"	e	enum:__anon3
+TCOD_COLOR_DESATURATED	include/color.h	/^	TCOD_COLOR_DESATURATED,$/;"	e	enum:__anon3
+TCOD_COLOR_FLAME	include/color.h	/^	TCOD_COLOR_FLAME,$/;"	e	enum:__anon2
+TCOD_COLOR_FUCHSIA	include/color.h	/^	TCOD_COLOR_FUCHSIA,$/;"	e	enum:__anon2
+TCOD_COLOR_GREEN	include/color.h	/^	TCOD_COLOR_GREEN,$/;"	e	enum:__anon2
+TCOD_COLOR_HAN	include/color.h	/^	TCOD_COLOR_HAN,$/;"	e	enum:__anon2
+TCOD_COLOR_LEVELS	include/color.h	/^	TCOD_COLOR_LEVELS$/;"	e	enum:__anon3
+TCOD_COLOR_LIGHT	include/color.h	/^	TCOD_COLOR_LIGHT,$/;"	e	enum:__anon3
+TCOD_COLOR_LIGHTER	include/color.h	/^	TCOD_COLOR_LIGHTER,$/;"	e	enum:__anon3
+TCOD_COLOR_LIGHTEST	include/color.h	/^	TCOD_COLOR_LIGHTEST,$/;"	e	enum:__anon3
+TCOD_COLOR_LIME	include/color.h	/^	TCOD_COLOR_LIME,$/;"	e	enum:__anon2
+TCOD_COLOR_MAGENTA	include/color.h	/^	TCOD_COLOR_MAGENTA,$/;"	e	enum:__anon2
+TCOD_COLOR_NB	include/color.h	/^	TCOD_COLOR_NB$/;"	e	enum:__anon2
+TCOD_COLOR_NORMAL	include/color.h	/^	TCOD_COLOR_NORMAL,$/;"	e	enum:__anon3
+TCOD_COLOR_ORANGE	include/color.h	/^	TCOD_COLOR_ORANGE,$/;"	e	enum:__anon2
+TCOD_COLOR_PINK	include/color.h	/^	TCOD_COLOR_PINK,$/;"	e	enum:__anon2
+TCOD_COLOR_PURPLE	include/color.h	/^	TCOD_COLOR_PURPLE,$/;"	e	enum:__anon2
+TCOD_COLOR_RED	include/color.h	/^	TCOD_COLOR_RED,$/;"	e	enum:__anon2
+TCOD_COLOR_SEA	include/color.h	/^	TCOD_COLOR_SEA,$/;"	e	enum:__anon2
+TCOD_COLOR_SKY	include/color.h	/^	TCOD_COLOR_SKY,$/;"	e	enum:__anon2
+TCOD_COLOR_TURQUOISE	include/color.h	/^	TCOD_COLOR_TURQUOISE,$/;"	e	enum:__anon2
+TCOD_COLOR_VIOLET	include/color.h	/^	TCOD_COLOR_VIOLET,$/;"	e	enum:__anon2
+TCOD_COLOR_YELLOW	include/color.h	/^	TCOD_COLOR_YELLOW,$/;"	e	enum:__anon2
+TCOD_COPPER	include/libtcod_int.h	438;"	d
+TCOD_CRIMSON	include/libtcod_int.h	365;"	d
+TCOD_CYAN	include/libtcod_int.h	355;"	d
+TCOD_DARKER_AMBER	include/libtcod_int.h	394;"	d
+TCOD_DARKER_AZURE	include/libtcod_int.h	403;"	d
+TCOD_DARKER_BLUE	include/libtcod_int.h	404;"	d
+TCOD_DARKER_CHARTREUSE	include/libtcod_int.h	397;"	d
+TCOD_DARKER_CRIMSON	include/libtcod_int.h	411;"	d
+TCOD_DARKER_CYAN	include/libtcod_int.h	401;"	d
+TCOD_DARKER_FLAME	include/libtcod_int.h	392;"	d
+TCOD_DARKER_FUCHSIA	include/libtcod_int.h	408;"	d
+TCOD_DARKER_GREEN	include/libtcod_int.h	398;"	d
+TCOD_DARKER_GREY	include/libtcod_int.h	236;"	d
+TCOD_DARKER_HAN	include/libtcod_int.h	405;"	d
+TCOD_DARKER_LIME	include/libtcod_int.h	396;"	d
+TCOD_DARKER_MAGENTA	include/libtcod_int.h	409;"	d
+TCOD_DARKER_ORANGE	include/libtcod_int.h	393;"	d
+TCOD_DARKER_PINK	include/libtcod_int.h	410;"	d
+TCOD_DARKER_PURPLE	include/libtcod_int.h	407;"	d
+TCOD_DARKER_RED	include/libtcod_int.h	391;"	d
+TCOD_DARKER_SEA	include/libtcod_int.h	399;"	d
+TCOD_DARKER_SEPIA	include/libtcod_int.h	245;"	d
+TCOD_DARKER_SKY	include/libtcod_int.h	402;"	d
+TCOD_DARKER_TURQUOISE	include/libtcod_int.h	400;"	d
+TCOD_DARKER_VIOLET	include/libtcod_int.h	406;"	d
+TCOD_DARKER_YELLOW	include/libtcod_int.h	395;"	d
+TCOD_DARKEST_AMBER	include/libtcod_int.h	417;"	d
+TCOD_DARKEST_AZURE	include/libtcod_int.h	426;"	d
+TCOD_DARKEST_BLUE	include/libtcod_int.h	427;"	d
+TCOD_DARKEST_CHARTREUSE	include/libtcod_int.h	420;"	d
+TCOD_DARKEST_CRIMSON	include/libtcod_int.h	434;"	d
+TCOD_DARKEST_CYAN	include/libtcod_int.h	424;"	d
+TCOD_DARKEST_FLAME	include/libtcod_int.h	415;"	d
+TCOD_DARKEST_FUCHSIA	include/libtcod_int.h	431;"	d
+TCOD_DARKEST_GREEN	include/libtcod_int.h	421;"	d
+TCOD_DARKEST_GREY	include/libtcod_int.h	235;"	d
+TCOD_DARKEST_HAN	include/libtcod_int.h	428;"	d
+TCOD_DARKEST_LIME	include/libtcod_int.h	419;"	d
+TCOD_DARKEST_MAGENTA	include/libtcod_int.h	432;"	d
+TCOD_DARKEST_ORANGE	include/libtcod_int.h	416;"	d
+TCOD_DARKEST_PINK	include/libtcod_int.h	433;"	d
+TCOD_DARKEST_PURPLE	include/libtcod_int.h	430;"	d
+TCOD_DARKEST_RED	include/libtcod_int.h	414;"	d
+TCOD_DARKEST_SEA	include/libtcod_int.h	422;"	d
+TCOD_DARKEST_SEPIA	include/libtcod_int.h	244;"	d
+TCOD_DARKEST_SKY	include/libtcod_int.h	425;"	d
+TCOD_DARKEST_TURQUOISE	include/libtcod_int.h	423;"	d
+TCOD_DARKEST_VIOLET	include/libtcod_int.h	429;"	d
+TCOD_DARKEST_YELLOW	include/libtcod_int.h	418;"	d
+TCOD_DARK_AMBER	include/libtcod_int.h	371;"	d
+TCOD_DARK_AZURE	include/libtcod_int.h	380;"	d
+TCOD_DARK_BLUE	include/libtcod_int.h	381;"	d
+TCOD_DARK_CHARTREUSE	include/libtcod_int.h	374;"	d
+TCOD_DARK_CRIMSON	include/libtcod_int.h	388;"	d
+TCOD_DARK_CYAN	include/libtcod_int.h	378;"	d
+TCOD_DARK_FLAME	include/libtcod_int.h	369;"	d
+TCOD_DARK_FUCHSIA	include/libtcod_int.h	385;"	d
+TCOD_DARK_GREEN	include/libtcod_int.h	375;"	d
+TCOD_DARK_GREY	include/libtcod_int.h	237;"	d
+TCOD_DARK_HAN	include/libtcod_int.h	382;"	d
+TCOD_DARK_LIME	include/libtcod_int.h	373;"	d
+TCOD_DARK_MAGENTA	include/libtcod_int.h	386;"	d
+TCOD_DARK_ORANGE	include/libtcod_int.h	370;"	d
+TCOD_DARK_PINK	include/libtcod_int.h	387;"	d
+TCOD_DARK_PURPLE	include/libtcod_int.h	384;"	d
+TCOD_DARK_RED	include/libtcod_int.h	368;"	d
+TCOD_DARK_SEA	include/libtcod_int.h	376;"	d
+TCOD_DARK_SEPIA	include/libtcod_int.h	246;"	d
+TCOD_DARK_SKY	include/libtcod_int.h	379;"	d
+TCOD_DARK_TURQUOISE	include/libtcod_int.h	377;"	d
+TCOD_DARK_VIOLET	include/libtcod_int.h	383;"	d
+TCOD_DARK_YELLOW	include/libtcod_int.h	372;"	d
+TCOD_DESATURATED_AMBER	include/libtcod_int.h	256;"	d
+TCOD_DESATURATED_AZURE	include/libtcod_int.h	265;"	d
+TCOD_DESATURATED_BLUE	include/libtcod_int.h	266;"	d
+TCOD_DESATURATED_CHARTREUSE	include/libtcod_int.h	259;"	d
+TCOD_DESATURATED_CRIMSON	include/libtcod_int.h	273;"	d
+TCOD_DESATURATED_CYAN	include/libtcod_int.h	263;"	d
+TCOD_DESATURATED_FLAME	include/libtcod_int.h	254;"	d
+TCOD_DESATURATED_FUCHSIA	include/libtcod_int.h	270;"	d
+TCOD_DESATURATED_GREEN	include/libtcod_int.h	260;"	d
+TCOD_DESATURATED_HAN	include/libtcod_int.h	267;"	d
+TCOD_DESATURATED_LIME	include/libtcod_int.h	258;"	d
+TCOD_DESATURATED_MAGENTA	include/libtcod_int.h	271;"	d
+TCOD_DESATURATED_ORANGE	include/libtcod_int.h	255;"	d
+TCOD_DESATURATED_PINK	include/libtcod_int.h	272;"	d
+TCOD_DESATURATED_PURPLE	include/libtcod_int.h	269;"	d
+TCOD_DESATURATED_RED	include/libtcod_int.h	253;"	d
+TCOD_DESATURATED_SEA	include/libtcod_int.h	261;"	d
+TCOD_DESATURATED_SKY	include/libtcod_int.h	264;"	d
+TCOD_DESATURATED_TURQUOISE	include/libtcod_int.h	262;"	d
+TCOD_DESATURATED_VIOLET	include/libtcod_int.h	268;"	d
+TCOD_DESATURATED_YELLOW	include/libtcod_int.h	257;"	d
+TCOD_DISTRIBUTION_GAUSSIAN	include/mersenne_types.h	/^	TCOD_DISTRIBUTION_GAUSSIAN,$/;"	e	enum:__anon24
+TCOD_DISTRIBUTION_GAUSSIAN_INVERSE	include/mersenne_types.h	/^	TCOD_DISTRIBUTION_GAUSSIAN_INVERSE,$/;"	e	enum:__anon24
+TCOD_DISTRIBUTION_GAUSSIAN_RANGE	include/mersenne_types.h	/^	TCOD_DISTRIBUTION_GAUSSIAN_RANGE,$/;"	e	enum:__anon24
+TCOD_DISTRIBUTION_GAUSSIAN_RANGE_INVERSE	include/mersenne_types.h	/^	TCOD_DISTRIBUTION_GAUSSIAN_RANGE_INVERSE$/;"	e	enum:__anon24
+TCOD_DISTRIBUTION_LINEAR	include/mersenne_types.h	/^	TCOD_DISTRIBUTION_LINEAR,$/;"	e	enum:__anon24
+TCOD_EVENT_ANY	include/sys.h	/^  TCOD_EVENT_ANY=TCOD_EVENT_KEY|TCOD_EVENT_MOUSE,$/;"	e	enum:__anon27
+TCOD_EVENT_KEY	include/sys.h	/^  TCOD_EVENT_KEY=TCOD_EVENT_KEY_PRESS|TCOD_EVENT_KEY_RELEASE,$/;"	e	enum:__anon27
+TCOD_EVENT_KEY_PRESS	include/sys.h	/^  TCOD_EVENT_KEY_PRESS=1,$/;"	e	enum:__anon27
+TCOD_EVENT_KEY_RELEASE	include/sys.h	/^  TCOD_EVENT_KEY_RELEASE=2,$/;"	e	enum:__anon27
+TCOD_EVENT_MOUSE	include/sys.h	/^  TCOD_EVENT_MOUSE=TCOD_EVENT_MOUSE_MOVE|TCOD_EVENT_MOUSE_PRESS|TCOD_EVENT_MOUSE_RELEASE,$/;"	e	enum:__anon27
+TCOD_EVENT_MOUSE_MOVE	include/sys.h	/^  TCOD_EVENT_MOUSE_MOVE=4,$/;"	e	enum:__anon27
+TCOD_EVENT_MOUSE_PRESS	include/sys.h	/^  TCOD_EVENT_MOUSE_PRESS=8,$/;"	e	enum:__anon27
+TCOD_EVENT_MOUSE_RELEASE	include/sys.h	/^  TCOD_EVENT_MOUSE_RELEASE=16,$/;"	e	enum:__anon27
+TCOD_FLAME	include/libtcod_int.h	346;"	d
+TCOD_FONT_LAYOUT_ASCII_INCOL	include/console_types.h	/^	TCOD_FONT_LAYOUT_ASCII_INCOL=1,$/;"	e	enum:__anon10
+TCOD_FONT_LAYOUT_ASCII_INROW	include/console_types.h	/^	TCOD_FONT_LAYOUT_ASCII_INROW=2,$/;"	e	enum:__anon10
+TCOD_FONT_LAYOUT_TCOD	include/console_types.h	/^	TCOD_FONT_LAYOUT_TCOD=8,$/;"	e	enum:__anon10
+TCOD_FONT_TYPE_GRAYSCALE	include/console_types.h	/^	TCOD_FONT_TYPE_GRAYSCALE=4,$/;"	e	enum:__anon10
+TCOD_FONT_TYPE_GREYSCALE	include/console_types.h	/^	TCOD_FONT_TYPE_GREYSCALE=4,$/;"	e	enum:__anon10
+TCOD_FREEBSD	include/libtcod.h	84;"	d
+TCOD_FREEBSD32	include/libtcod.h	90;"	d
+TCOD_FREEBSD64	include/libtcod.h	87;"	d
+TCOD_FUCHSIA	include/libtcod_int.h	362;"	d
+TCOD_GCC	include/libtcod.h	70;"	d
+TCOD_GCC	include/libtcod.h	76;"	d
+TCOD_GCC	include/libtcod.h	85;"	d
+TCOD_GCC	include/libtcod.h	94;"	d
+TCOD_GOLD	include/libtcod_int.h	439;"	d
+TCOD_GREEN	include/libtcod_int.h	352;"	d
+TCOD_GREY	include/libtcod_int.h	238;"	d
+TCOD_HAIKU	include/libtcod.h	69;"	d
+TCOD_HAN	include/libtcod_int.h	359;"	d
+TCOD_HEXVERSION	include/libtcod.h	121;"	d
+TCOD_IF	include/libtcod_int.h	150;"	d
+TCOD_IF	include/libtcod_int.h	155;"	d
+TCOD_IFNOT	include/libtcod_int.h	151;"	d
+TCOD_IFNOT	include/libtcod_int.h	156;"	d
+TCOD_KEY_PRESSED	include/console_types.h	/^	TCOD_KEY_PRESSED=1,$/;"	e	enum:__anon9
+TCOD_KEY_RELEASED	include/console_types.h	/^	TCOD_KEY_RELEASED=2,$/;"	e	enum:__anon9
+TCOD_LEFT	include/console_types.h	/^	TCOD_LEFT, $/;"	e	enum:__anon12
+TCOD_LEX_CHAR	include/lex.h	47;"	d
+TCOD_LEX_COMMENT	include/lex.h	49;"	d
+TCOD_LEX_EOF	include/lex.h	48;"	d
+TCOD_LEX_ERROR	include/lex.h	39;"	d
+TCOD_LEX_FLAG_NESTING_COMMENT	include/lex.h	36;"	d
+TCOD_LEX_FLAG_NOCASE	include/lex.h	35;"	d
+TCOD_LEX_FLAG_TOKENIZE_COMMENTS	include/lex.h	37;"	d
+TCOD_LEX_FLOAT	include/lex.h	46;"	d
+TCOD_LEX_IDEN	include/lex.h	43;"	d
+TCOD_LEX_INTEGER	include/lex.h	45;"	d
+TCOD_LEX_KEYWORD	include/lex.h	42;"	d
+TCOD_LEX_KEYWORD_SIZE	include/lex.h	54;"	d
+TCOD_LEX_MAX_KEYWORDS	include/lex.h	53;"	d
+TCOD_LEX_MAX_SYMBOLS	include/lex.h	51;"	d
+TCOD_LEX_STRING	include/lex.h	44;"	d
+TCOD_LEX_SYMBOL	include/lex.h	41;"	d
+TCOD_LEX_SYMBOL_SIZE	include/lex.h	52;"	d
+TCOD_LEX_UNKNOWN	include/lex.h	40;"	d
+TCOD_LIGHTER_AMBER	include/libtcod_int.h	302;"	d
+TCOD_LIGHTER_AZURE	include/libtcod_int.h	311;"	d
+TCOD_LIGHTER_BLUE	include/libtcod_int.h	312;"	d
+TCOD_LIGHTER_CHARTREUSE	include/libtcod_int.h	305;"	d
+TCOD_LIGHTER_CRIMSON	include/libtcod_int.h	319;"	d
+TCOD_LIGHTER_CYAN	include/libtcod_int.h	309;"	d
+TCOD_LIGHTER_FLAME	include/libtcod_int.h	300;"	d
+TCOD_LIGHTER_FUCHSIA	include/libtcod_int.h	316;"	d
+TCOD_LIGHTER_GREEN	include/libtcod_int.h	306;"	d
+TCOD_LIGHTER_GREY	include/libtcod_int.h	240;"	d
+TCOD_LIGHTER_HAN	include/libtcod_int.h	313;"	d
+TCOD_LIGHTER_LIME	include/libtcod_int.h	304;"	d
+TCOD_LIGHTER_MAGENTA	include/libtcod_int.h	317;"	d
+TCOD_LIGHTER_ORANGE	include/libtcod_int.h	301;"	d
+TCOD_LIGHTER_PINK	include/libtcod_int.h	318;"	d
+TCOD_LIGHTER_PURPLE	include/libtcod_int.h	315;"	d
+TCOD_LIGHTER_RED	include/libtcod_int.h	299;"	d
+TCOD_LIGHTER_SEA	include/libtcod_int.h	307;"	d
+TCOD_LIGHTER_SEPIA	include/libtcod_int.h	249;"	d
+TCOD_LIGHTER_SKY	include/libtcod_int.h	310;"	d
+TCOD_LIGHTER_TURQUOISE	include/libtcod_int.h	308;"	d
+TCOD_LIGHTER_VIOLET	include/libtcod_int.h	314;"	d
+TCOD_LIGHTER_YELLOW	include/libtcod_int.h	303;"	d
+TCOD_LIGHTEST_AMBER	include/libtcod_int.h	279;"	d
+TCOD_LIGHTEST_AZURE	include/libtcod_int.h	288;"	d
+TCOD_LIGHTEST_BLUE	include/libtcod_int.h	289;"	d
+TCOD_LIGHTEST_CHARTREUSE	include/libtcod_int.h	282;"	d
+TCOD_LIGHTEST_CRIMSON	include/libtcod_int.h	296;"	d
+TCOD_LIGHTEST_CYAN	include/libtcod_int.h	286;"	d
+TCOD_LIGHTEST_FLAME	include/libtcod_int.h	277;"	d
+TCOD_LIGHTEST_FUCHSIA	include/libtcod_int.h	293;"	d
+TCOD_LIGHTEST_GREEN	include/libtcod_int.h	283;"	d
+TCOD_LIGHTEST_GREY	include/libtcod_int.h	241;"	d
+TCOD_LIGHTEST_HAN	include/libtcod_int.h	290;"	d
+TCOD_LIGHTEST_LIME	include/libtcod_int.h	281;"	d
+TCOD_LIGHTEST_MAGENTA	include/libtcod_int.h	294;"	d
+TCOD_LIGHTEST_ORANGE	include/libtcod_int.h	278;"	d
+TCOD_LIGHTEST_PINK	include/libtcod_int.h	295;"	d
+TCOD_LIGHTEST_PURPLE	include/libtcod_int.h	292;"	d
+TCOD_LIGHTEST_RED	include/libtcod_int.h	276;"	d
+TCOD_LIGHTEST_SEA	include/libtcod_int.h	284;"	d
+TCOD_LIGHTEST_SEPIA	include/libtcod_int.h	250;"	d
+TCOD_LIGHTEST_SKY	include/libtcod_int.h	287;"	d
+TCOD_LIGHTEST_TURQUOISE	include/libtcod_int.h	285;"	d
+TCOD_LIGHTEST_VIOLET	include/libtcod_int.h	291;"	d
+TCOD_LIGHTEST_YELLOW	include/libtcod_int.h	280;"	d
+TCOD_LIGHT_AMBER	include/libtcod_int.h	325;"	d
+TCOD_LIGHT_AZURE	include/libtcod_int.h	334;"	d
+TCOD_LIGHT_BLUE	include/libtcod_int.h	335;"	d
+TCOD_LIGHT_CHARTREUSE	include/libtcod_int.h	328;"	d
+TCOD_LIGHT_CRIMSON	include/libtcod_int.h	342;"	d
+TCOD_LIGHT_CYAN	include/libtcod_int.h	332;"	d
+TCOD_LIGHT_FLAME	include/libtcod_int.h	323;"	d
+TCOD_LIGHT_FUCHSIA	include/libtcod_int.h	339;"	d
+TCOD_LIGHT_GREEN	include/libtcod_int.h	329;"	d
+TCOD_LIGHT_GREY	include/libtcod_int.h	239;"	d
+TCOD_LIGHT_HAN	include/libtcod_int.h	336;"	d
+TCOD_LIGHT_LIME	include/libtcod_int.h	327;"	d
+TCOD_LIGHT_MAGENTA	include/libtcod_int.h	340;"	d
+TCOD_LIGHT_ORANGE	include/libtcod_int.h	324;"	d
+TCOD_LIGHT_PINK	include/libtcod_int.h	341;"	d
+TCOD_LIGHT_PURPLE	include/libtcod_int.h	338;"	d
+TCOD_LIGHT_RED	include/libtcod_int.h	322;"	d
+TCOD_LIGHT_SEA	include/libtcod_int.h	330;"	d
+TCOD_LIGHT_SEPIA	include/libtcod_int.h	248;"	d
+TCOD_LIGHT_SKY	include/libtcod_int.h	333;"	d
+TCOD_LIGHT_TURQUOISE	include/libtcod_int.h	331;"	d
+TCOD_LIGHT_VIOLET	include/libtcod_int.h	337;"	d
+TCOD_LIGHT_YELLOW	include/libtcod_int.h	326;"	d
+TCOD_LIME	include/libtcod_int.h	350;"	d
+TCOD_LINUX	include/libtcod.h	75;"	d
+TCOD_LINUX32	include/libtcod.h	81;"	d
+TCOD_LINUX64	include/libtcod.h	78;"	d
+TCOD_LOG	include/libtcod_int.h	153;"	d
+TCOD_LOG	include/libtcod_int.h	158;"	d
+TCOD_MACOSX	include/libtcod.h	93;"	d
+TCOD_MAGENTA	include/libtcod_int.h	363;"	d
+TCOD_MINGW32	include/libtcod.h	66;"	d
+TCOD_NB_RENDERERS	include/console_types.h	/^	TCOD_NB_RENDERERS,$/;"	e	enum:__anon11
+TCOD_NOISE_DEFAULT	include/noise.h	/^	TCOD_NOISE_DEFAULT = 0$/;"	e	enum:__anon15
+TCOD_NOISE_DEFAULT_HURST	include/noise_defaults.h	6;"	d
+TCOD_NOISE_DEFAULT_LACUNARITY	include/noise_defaults.h	7;"	d
+TCOD_NOISE_MAX_DIMENSIONS	include/noise_defaults.h	5;"	d
+TCOD_NOISE_MAX_OCTAVES	include/noise_defaults.h	4;"	d
+TCOD_NOISE_PERLIN	include/noise.h	/^	TCOD_NOISE_PERLIN = 1,$/;"	e	enum:__anon15
+TCOD_NOISE_SIMPLEX	include/noise.h	/^	TCOD_NOISE_SIMPLEX = 2,$/;"	e	enum:__anon15
+TCOD_NOISE_WAVELET	include/noise.h	/^	TCOD_NOISE_WAVELET = 4,$/;"	e	enum:__anon15
+TCOD_ORANGE	include/libtcod_int.h	347;"	d
+TCOD_PEACH	include/libtcod_int.h	444;"	d
+TCOD_PINK	include/libtcod_int.h	364;"	d
+TCOD_PURPLE	include/libtcod_int.h	361;"	d
+TCOD_RED	include/libtcod_int.h	345;"	d
+TCOD_RENDERER_GLSL	include/console_types.h	/^	TCOD_RENDERER_GLSL,$/;"	e	enum:__anon11
+TCOD_RENDERER_OPENGL	include/console_types.h	/^	TCOD_RENDERER_OPENGL,$/;"	e	enum:__anon11
+TCOD_RENDERER_SDL	include/console_types.h	/^	TCOD_RENDERER_SDL,$/;"	e	enum:__anon11
+TCOD_RIGHT	include/console_types.h	/^	TCOD_RIGHT, $/;"	e	enum:__anon12
+TCOD_RNG_CMWC	include/mersenne_types.h	/^    TCOD_RNG_CMWC$/;"	e	enum:__anon23
+TCOD_RNG_MT	include/mersenne_types.h	/^    TCOD_RNG_MT,$/;"	e	enum:__anon23
+TCOD_SEA	include/libtcod_int.h	353;"	d
+TCOD_SEPIA	include/libtcod_int.h	247;"	d
+TCOD_SILVER	include/libtcod_int.h	440;"	d
+TCOD_SKY	include/libtcod_int.h	356;"	d
+TCOD_STRVERSION	include/libtcod.h	122;"	d
+TCOD_TECHVERSION	include/libtcod.h	123;"	d
+TCOD_TURQUOISE	include/libtcod_int.h	354;"	d
+TCOD_TYPE_BOOL	include/parser.h	/^	TCOD_TYPE_BOOL,$/;"	e	enum:__anon16
+TCOD_TYPE_CHAR	include/parser.h	/^	TCOD_TYPE_CHAR,$/;"	e	enum:__anon16
+TCOD_TYPE_COLOR	include/parser.h	/^	TCOD_TYPE_COLOR,$/;"	e	enum:__anon16
+TCOD_TYPE_CUSTOM00	include/parser.h	/^	TCOD_TYPE_CUSTOM00,$/;"	e	enum:__anon16
+TCOD_TYPE_CUSTOM01	include/parser.h	/^	TCOD_TYPE_CUSTOM01,$/;"	e	enum:__anon16
+TCOD_TYPE_CUSTOM02	include/parser.h	/^	TCOD_TYPE_CUSTOM02,$/;"	e	enum:__anon16
+TCOD_TYPE_CUSTOM03	include/parser.h	/^	TCOD_TYPE_CUSTOM03,$/;"	e	enum:__anon16
+TCOD_TYPE_CUSTOM04	include/parser.h	/^	TCOD_TYPE_CUSTOM04,$/;"	e	enum:__anon16
+TCOD_TYPE_CUSTOM05	include/parser.h	/^	TCOD_TYPE_CUSTOM05,$/;"	e	enum:__anon16
+TCOD_TYPE_CUSTOM06	include/parser.h	/^	TCOD_TYPE_CUSTOM06,$/;"	e	enum:__anon16
+TCOD_TYPE_CUSTOM07	include/parser.h	/^	TCOD_TYPE_CUSTOM07,$/;"	e	enum:__anon16
+TCOD_TYPE_CUSTOM08	include/parser.h	/^	TCOD_TYPE_CUSTOM08,$/;"	e	enum:__anon16
+TCOD_TYPE_CUSTOM09	include/parser.h	/^	TCOD_TYPE_CUSTOM09,$/;"	e	enum:__anon16
+TCOD_TYPE_CUSTOM10	include/parser.h	/^	TCOD_TYPE_CUSTOM10,$/;"	e	enum:__anon16
+TCOD_TYPE_CUSTOM11	include/parser.h	/^	TCOD_TYPE_CUSTOM11,$/;"	e	enum:__anon16
+TCOD_TYPE_CUSTOM12	include/parser.h	/^	TCOD_TYPE_CUSTOM12,$/;"	e	enum:__anon16
+TCOD_TYPE_CUSTOM13	include/parser.h	/^	TCOD_TYPE_CUSTOM13,$/;"	e	enum:__anon16
+TCOD_TYPE_CUSTOM14	include/parser.h	/^	TCOD_TYPE_CUSTOM14,$/;"	e	enum:__anon16
+TCOD_TYPE_CUSTOM15	include/parser.h	/^	TCOD_TYPE_CUSTOM15,$/;"	e	enum:__anon16
+TCOD_TYPE_DICE	include/parser.h	/^	TCOD_TYPE_DICE,$/;"	e	enum:__anon16
+TCOD_TYPE_FLOAT	include/parser.h	/^	TCOD_TYPE_FLOAT,$/;"	e	enum:__anon16
+TCOD_TYPE_INT	include/parser.h	/^	TCOD_TYPE_INT,$/;"	e	enum:__anon16
+TCOD_TYPE_LIST	include/parser.h	/^	TCOD_TYPE_LIST=1024$/;"	e	enum:__anon16
+TCOD_TYPE_NONE	include/parser.h	/^	TCOD_TYPE_NONE,$/;"	e	enum:__anon16
+TCOD_TYPE_STRING	include/parser.h	/^	TCOD_TYPE_STRING,$/;"	e	enum:__anon16
+TCOD_TYPE_VALUELIST00	include/parser.h	/^	TCOD_TYPE_VALUELIST00,$/;"	e	enum:__anon16
+TCOD_TYPE_VALUELIST01	include/parser.h	/^	TCOD_TYPE_VALUELIST01,$/;"	e	enum:__anon16
+TCOD_TYPE_VALUELIST02	include/parser.h	/^	TCOD_TYPE_VALUELIST02,$/;"	e	enum:__anon16
+TCOD_TYPE_VALUELIST03	include/parser.h	/^	TCOD_TYPE_VALUELIST03,$/;"	e	enum:__anon16
+TCOD_TYPE_VALUELIST04	include/parser.h	/^	TCOD_TYPE_VALUELIST04,$/;"	e	enum:__anon16
+TCOD_TYPE_VALUELIST05	include/parser.h	/^	TCOD_TYPE_VALUELIST05,$/;"	e	enum:__anon16
+TCOD_TYPE_VALUELIST06	include/parser.h	/^	TCOD_TYPE_VALUELIST06,$/;"	e	enum:__anon16
+TCOD_TYPE_VALUELIST07	include/parser.h	/^	TCOD_TYPE_VALUELIST07,$/;"	e	enum:__anon16
+TCOD_TYPE_VALUELIST08	include/parser.h	/^	TCOD_TYPE_VALUELIST08,$/;"	e	enum:__anon16
+TCOD_TYPE_VALUELIST09	include/parser.h	/^	TCOD_TYPE_VALUELIST09,$/;"	e	enum:__anon16
+TCOD_TYPE_VALUELIST10	include/parser.h	/^	TCOD_TYPE_VALUELIST10,$/;"	e	enum:__anon16
+TCOD_TYPE_VALUELIST11	include/parser.h	/^	TCOD_TYPE_VALUELIST11,$/;"	e	enum:__anon16
+TCOD_TYPE_VALUELIST12	include/parser.h	/^	TCOD_TYPE_VALUELIST12,$/;"	e	enum:__anon16
+TCOD_TYPE_VALUELIST13	include/parser.h	/^	TCOD_TYPE_VALUELIST13,$/;"	e	enum:__anon16
+TCOD_TYPE_VALUELIST14	include/parser.h	/^	TCOD_TYPE_VALUELIST14,$/;"	e	enum:__anon16
+TCOD_TYPE_VALUELIST15	include/parser.h	/^	TCOD_TYPE_VALUELIST15,$/;"	e	enum:__anon16
+TCOD_VIOLET	include/libtcod_int.h	360;"	d
+TCOD_VISUAL_STUDIO	include/libtcod.h	56;"	d
+TCOD_WHITE	include/libtcod_int.h	242;"	d
+TCOD_WIN32	include/libtcod.h	62;"	d
+TCOD_WIN32	include/libtcod.h	67;"	d
+TCOD_WIN64	include/libtcod.h	59;"	d
+TCOD_WINDOWS	include/libtcod.h	57;"	d
+TCOD_WINDOWS	include/libtcod.h	65;"	d
+TCOD_YELLOW	include/libtcod_int.h	349;"	d
+TCOD_alignment_t	include/console_types.h	/^} TCOD_alignment_t;$/;"	t	typeref:enum:__anon12
+TCOD_bkgnd_flag_t	include/console_types.h	/^} TCOD_bkgnd_flag_t;$/;"	t	typeref:enum:__anon8
+TCOD_bresenham_data_t	include/bresenham.h	/^} TCOD_bresenham_data_t;$/;"	t	typeref:struct:__anon21
+TCOD_bsp_callback_t	include/bsp.h	/^typedef bool (*TCOD_bsp_callback_t)(TCOD_bsp_t *node, void *userData);$/;"	t
+TCOD_bsp_t	include/bsp.h	/^} TCOD_bsp_t;$/;"	t	typeref:struct:__anon25
+TCOD_chars_t	include/console_types.h	/^} TCOD_chars_t;$/;"	t	typeref:enum:__anon6
+TCOD_colctrl_t	include/console_types.h	/^} TCOD_colctrl_t;$/;"	t	typeref:enum:__anon7
+TCOD_color_t	include/color.h	/^} TCOD_color_t;$/;"	t	typeref:struct:__anon1
+TCOD_cond_t	include/sys.h	/^typedef void *TCOD_cond_t;$/;"	t
+TCOD_console_data_t	include/libtcod_int.h	/^} TCOD_console_data_t;$/;"	t	typeref:struct:__anon29
+TCOD_console_t	include/console.h	/^typedef void * TCOD_console_t;$/;"	t
+TCOD_dice_t	include/mersenne_types.h	/^} TCOD_dice_t;$/;"	t	typeref:struct:__anon22
+TCOD_dijkstra_t	include/path.h	/^typedef void *TCOD_dijkstra_t;$/;"	t
+TCOD_distribution_t	include/mersenne_types.h	/^} TCOD_distribution_t;$/;"	t	typeref:enum:__anon24
+TCOD_event_t	include/sys.h	/^} TCOD_event_t;$/;"	t	typeref:enum:__anon27
+TCOD_font_flags_t	include/console_types.h	/^} TCOD_font_flags_t;$/;"	t	typeref:enum:__anon10
+TCOD_fov_algorithm_t	include/fov_types.h	/^	NB_FOV_ALGORITHMS } TCOD_fov_algorithm_t;$/;"	t	typeref:enum:__anon26
+TCOD_heightmap_t	include/heightmap.h	/^} TCOD_heightmap_t;$/;"	t	typeref:struct:__anon14
+TCOD_image_t	include/image.h	/^typedef void *TCOD_image_t;$/;"	t
+TCOD_internal_context_t	include/libtcod_int.h	/^} TCOD_internal_context_t;$/;"	t	typeref:struct:__anon33
+TCOD_key_status_t	include/console_types.h	/^} TCOD_key_status_t;$/;"	t	typeref:enum:__anon9
+TCOD_key_t	include/console_types.h	/^} TCOD_key_t;$/;"	t	typeref:struct:__anon5
+TCOD_keycode_t	include/console_types.h	/^} TCOD_keycode_t;$/;"	t	typeref:enum:__anon4
+TCOD_lex_t	include/lex.h	/^} TCOD_lex_t;$/;"	t	typeref:struct:__anon13
+TCOD_library_t	include/sys.h	/^typedef void *TCOD_library_t;$/;"	t
+TCOD_line_listener_t	include/bresenham.h	/^typedef bool (*TCOD_line_listener_t) (int x, int y);$/;"	t
+TCOD_list_t	include/list.h	/^typedef void *TCOD_list_t;$/;"	t
+TCOD_map_t	include/fov.h	/^typedef void *TCOD_map_t;$/;"	t
+TCOD_mouse_t	include/mouse_types.h	/^} TCOD_mouse_t;$/;"	t	typeref:struct:__anon34
+TCOD_mutex_t	include/sys.h	/^typedef void *TCOD_mutex_t;$/;"	t
+TCOD_namegen_t	include/namegen.h	/^typedef void * TCOD_namegen_t;$/;"	t
+TCOD_noise_t	include/noise.h	/^typedef void *TCOD_noise_t;$/;"	t
+TCOD_noise_type_t	include/noise.h	/^} TCOD_noise_type_t;$/;"	t	typeref:enum:__anon15
+TCOD_parser_custom_t	include/parser.h	/^typedef TCOD_value_t (*TCOD_parser_custom_t)(TCOD_lex_t *lex, TCOD_parser_listener_t *listener, TCOD_parser_struct_t str, char *propname);$/;"	t
+TCOD_parser_int_t	include/parser.h	/^} TCOD_parser_int_t;$/;"	t	typeref:struct:__anon20
+TCOD_parser_listener_t	include/parser.h	/^} TCOD_parser_listener_t;$/;"	t	typeref:struct:__anon18
+TCOD_parser_struct_t	include/parser.h	/^typedef void *TCOD_parser_struct_t;$/;"	t
+TCOD_parser_t	include/parser.h	/^typedef void *TCOD_parser_t;$/;"	t
+TCOD_path_func_t	include/path.h	/^typedef float (*TCOD_path_func_t)( int xFrom, int yFrom, int xTo, int yTo, void *user_data );$/;"	t
+TCOD_path_t	include/path.h	/^typedef void *TCOD_path_t;$/;"	t
+TCOD_random_algo_t	include/mersenne_types.h	/^} TCOD_random_algo_t;$/;"	t	typeref:enum:__anon23
+TCOD_random_t	include/mersenne.h	/^typedef void *TCOD_random_t;$/;"	t
+TCOD_renderer_t	include/console_types.h	/^} TCOD_renderer_t;$/;"	t	typeref:enum:__anon11
+TCOD_semaphore_t	include/sys.h	/^typedef void *TCOD_semaphore_t;$/;"	t
+TCOD_struct_int_t	include/parser.h	/^} TCOD_struct_int_t;$/;"	t	typeref:struct:__anon19
+TCOD_text_t	include/txtfield.h	/^typedef void * TCOD_text_t;$/;"	t
+TCOD_thread_t	include/sys.h	/^typedef void *TCOD_thread_t;$/;"	t
+TCOD_tree_t	include/tree.h	/^} TCOD_tree_t;$/;"	t	typeref:struct:_TCOD_tree_t
+TCOD_value_t	include/parser.h	/^} TCOD_value_t;$/;"	t	typeref:union:__anon17
+TCOD_value_type_t	include/parser.h	/^} TCOD_value_type_t;$/;"	t	typeref:enum:__anon16
+TCOD_zip_t	include/zip.h	/^typedef void *TCOD_zip_t;$/;"	t
+WRAPPERS_H	include/wrappers.h	28;"	d
+WrapperData	include/path.hpp	/^	struct WrapperData {$/;"	s	class:TCODPath
+WrapperData	include/path.hpp	/^        struct WrapperData {$/;"	s	class:TCODDijkstra
+_SDL_main_h	include/libtcod.h	106;"	d
+_TCODLIB_H	include/libtcod.h	29;"	d
+_TCODLIB_HPP	include/libtcod.hpp	29;"	d
+_TCODLIB_INT_H	include/libtcod_int.h	29;"	d
+_TCOD_BRESENHAM_H	include/bresenham.h	29;"	d
+_TCOD_BRESENHAM_HPP	include/bresenham.hpp	29;"	d
+_TCOD_BSP_H	include/bsp.h	29;"	d
+_TCOD_BSP_HPP	include/bsp.hpp	29;"	d
+_TCOD_COLOR_H	include/color.h	29;"	d
+_TCOD_COLOR_HPP	include/color.hpp	29;"	d
+_TCOD_CONSOLE_H	include/console.h	29;"	d
+_TCOD_CONSOLE_HPP	include/console.hpp	29;"	d
+_TCOD_CONSOLE_TYPES_H	include/console_types.h	29;"	d
+_TCOD_FOV_H	include/fov.h	29;"	d
+_TCOD_FOV_HPP	include/fov.hpp	29;"	d
+_TCOD_FOV_TYPES_H	include/fov_types.h	29;"	d
+_TCOD_HEIGHTMAP_H	include/heightmap.h	28;"	d
+_TCOD_HEIGHTMAP_HPP	include/heightmap.hpp	28;"	d
+_TCOD_LEX_H	include/lex.h	29;"	d
+_TCOD_LEX_HPP	include/lex.hpp	29;"	d
+_TCOD_LIST_H	include/list.h	29;"	d
+_TCOD_LIST_HPP	include/list.hpp	29;"	d
+_TCOD_MOUSE_H	include/mouse.h	29;"	d
+_TCOD_MOUSE_HPP	include/mouse.hpp	29;"	d
+_TCOD_MOUSE_TYPES_H	include/mouse_types.h	29;"	d
+_TCOD_NAMEGEN_H	include/namegen.h	33;"	d
+_TCOD_NAMEGEN_HPP	include/namegen.hpp	33;"	d
+_TCOD_NOISE_DEFAULTS	include/noise_defaults.h	2;"	d
+_TCOD_PARSER_H	include/parser.h	29;"	d
+_TCOD_PARSER_HPP	include/parser.hpp	29;"	d
+_TCOD_PATH_H	include/path.h	29;"	d
+_TCOD_PATH_HPP	include/path.hpp	29;"	d
+_TCOD_PERLIN_H	include/noise.h	29;"	d
+_TCOD_PERLIN_HPP	include/noise.hpp	29;"	d
+_TCOD_RANDOM_H	include/mersenne.h	29;"	d
+_TCOD_RANDOM_HPP	include/mersenne.hpp	29;"	d
+_TCOD_RANDOM_TYPES_H	include/mersenne_types.h	29;"	d
+_TCOD_SYS_H	include/sys.h	29;"	d
+_TCOD_SYS_HPP	include/sys.hpp	29;"	d
+_TCOD_TEXT_HPP_	include/txtfield.hpp	29;"	d
+_TCOD_TEXT_H_	include/txtfield.h	30;"	d
+_TCOD_TREE_H	include/tree.h	29;"	d
+_TCOD_TREE_HPP	include/tree.hpp	29;"	d
+_TCOD_ZIP_H	include/zip.h	29;"	d
+_TCOD_ZIP_HPP	include/zip.hpp	29;"	d
+_TCOD_tree_t	include/tree.h	/^typedef struct _TCOD_tree_t {$/;"	s
+actual_fullscreen_height	include/libtcod_int.h	/^	int actual_fullscreen_height;$/;"	m	struct:__anon33
+actual_fullscreen_width	include/libtcod_int.h	/^	int actual_fullscreen_width;$/;"	m	struct:__anon33
+addAll	include/list.hpp	/^	void addAll(const TCODList<T> &l2) {$/;"	f	class:TCODList
+addSon	include/tree.hpp	/^	void addSon(TCODTree *data) {$/;"	f	class:TCODTree
+addsub	include/mersenne_types.h	/^	float addsub;$/;"	m	struct:__anon22
+algo	include/libtcod_int.h	/^	TCOD_random_algo_t algo;$/;"	m	struct:__anon32
+alignment	include/libtcod_int.h	/^	TCOD_alignment_t alignment;$/;"	m	struct:__anon29
+allocBuf	include/lex.h	/^	bool allocBuf;$/;"	m	struct:__anon13
+allocSize	include/list.hpp	/^	int allocSize;$/;"	m	class:TCODList
+allocate	include/list.hpp	/^	void allocate() {$/;"	f	class:TCODList
+amber	include/color.hpp	/^  static const TCODColor amber;$/;"	m	class:TCODColor
+array	include/list.hpp	/^	T *array;$/;"	m	class:TCODList
+ascii_to_tcod	include/libtcod_int.h	/^	int *ascii_to_tcod;$/;"	m	struct:__anon33
+assert	include/libtcod_int.h	144;"	d
+assert	include/libtcod_int.h	146;"	d
+azure	include/color.hpp	/^  static const TCODColor azure;$/;"	m	class:TCODColor
+b	include/color.h	/^	uint8 r,g,b;$/;"	m	struct:__anon1
+b	include/color.hpp	/^	uint8 r,g,b;$/;"	m	class:TCODColor
+b	include/parser.h	/^	bool b;$/;"	m	union:__anon17
+back	include/libtcod_int.h	/^	TCOD_color_t back;	\/* background color *\/$/;"	m	struct:__anon28
+back	include/libtcod_int.h	/^	TCOD_color_t fore,back,key;$/;"	m	struct:__anon29
+begin	include/list.hpp	/^	T * begin() const {$/;"	f	class:TCODList
+bkgnd_flag	include/libtcod_int.h	/^	TCOD_bkgnd_flag_t bkgnd_flag;$/;"	m	struct:__anon29
+black	include/color.hpp	/^	static const TCODColor black;$/;"	m	class:TCODColor
+blue	include/color.hpp	/^  static const TCODColor blue;$/;"	m	class:TCODColor
+bool	include/libtcod.h	/^typedef uint8 bool;$/;"	t
+bool	include/libtcod.h	134;"	d
+bool	include/libtcod.h	196;"	d
+brass	include/color.hpp	/^	static const TCODColor brass;$/;"	m	class:TCODColor
+buf	include/lex.h	/^	char *buf;$/;"	m	struct:__anon13
+buf	include/libtcod_int.h	/^	char_t *buf; \/* current console *\/$/;"	m	struct:__anon29
+c	include/console_types.h	/^	char c; \/* character if vk == TCODK_CHAR else 0 *\/$/;"	m	struct:__anon5
+c	include/libtcod_int.h	/^	int c;		\/* character ascii code *\/$/;"	m	struct:__anon28
+c	include/libtcod_int.h	/^	uint32 Q[4096], c;$/;"	m	struct:__anon32
+c	include/parser.h	/^	char c;$/;"	m	union:__anon17
+celadon	include/color.hpp	/^	static const TCODColor celadon;$/;"	m	class:TCODColor
+cell_t	include/libtcod_int.h	/^} cell_t;$/;"	t	typeref:struct:__anon30
+cells	include/libtcod_int.h	/^	cell_t *cells;$/;"	m	struct:__anon31
+cf	include/libtcod_int.h	/^	int cf;		\/* character number in font *\/$/;"	m	struct:__anon28
+char_t	include/libtcod_int.h	/^} char_t;$/;"	t	typeref:struct:__anon28
+chartreuse	include/color.hpp	/^  static const TCODColor chartreuse;$/;"	m	class:TCODColor
+clear	include/list.hpp	/^	void clear() {$/;"	f	class:TCODList
+clearAndDelete	include/list.hpp	/^	void clearAndDelete() {$/;"	f	class:TCODList
+cmtStart	include/lex.h	/^	const char *cmtStart, *cmtStop, *javadocCmtStart;$/;"	m	struct:__anon13
+cmtStop	include/lex.h	/^	const char *cmtStart, *cmtStop, *javadocCmtStart;$/;"	m	struct:__anon13
+col	include/parser.h	/^	TCOD_color_t col;$/;"	m	union:__anon17
+colored	include/libtcod_int.h	/^	bool *colored;$/;"	m	struct:__anon33
+colornum_t	include/wrappers.h	/^typedef unsigned int colornum_t;$/;"	t
+colors	include/color.hpp	/^	static const TCODColor colors[TCOD_COLOR_NB][TCOD_COLOR_LEVELS];$/;"	m	class:TCODColor
+contains	include/list.hpp	/^	bool contains(const T elt) const {$/;"	f	class:TCODList
+copper	include/color.hpp	/^	static const TCODColor copper;$/;"	m	class:TCODColor
+cppData	include/path.hpp	/^	} cppData;$/;"	m	class:TCODPath	typeref:struct:TCODPath::WrapperData
+cppData	include/path.hpp	/^        } cppData;$/;"	m	class:TCODDijkstra	typeref:struct:TCODDijkstra::WrapperData
+crimson	include/color.hpp	/^  static const TCODColor crimson;$/;"	m	class:TCODColor
+cur	include/libtcod_int.h	/^    int cur;$/;"	m	struct:__anon32
+cur_mt	include/libtcod_int.h	/^	int cur_mt;$/;"	m	struct:__anon32
+custom	include/parser.h	/^	void *custom;$/;"	m	union:__anon17
+customs	include/parser.h	/^	TCOD_parser_custom_t customs[16];$/;"	m	struct:__anon20
+cx	include/mouse_types.h	/^  int cx,cy; \/* cell coordinates in the root console *\/$/;"	m	struct:__anon34
+cy	include/mouse_types.h	/^  int cx,cy; \/* cell coordinates in the root console *\/$/;"	m	struct:__anon34
+cyan	include/color.hpp	/^  static const TCODColor cyan;$/;"	m	class:TCODColor
+darkAmber	include/color.hpp	/^  static const TCODColor darkAmber;$/;"	m	class:TCODColor
+darkAzure	include/color.hpp	/^  static const TCODColor darkAzure;$/;"	m	class:TCODColor
+darkBlue	include/color.hpp	/^  static const TCODColor darkBlue;$/;"	m	class:TCODColor
+darkChartreuse	include/color.hpp	/^  static const TCODColor darkChartreuse;$/;"	m	class:TCODColor
+darkCrimson	include/color.hpp	/^  static const TCODColor darkCrimson;$/;"	m	class:TCODColor
+darkCyan	include/color.hpp	/^  static const TCODColor darkCyan;$/;"	m	class:TCODColor
+darkFlame	include/color.hpp	/^  static const TCODColor darkFlame;$/;"	m	class:TCODColor
+darkFuchsia	include/color.hpp	/^  static const TCODColor darkFuchsia;$/;"	m	class:TCODColor
+darkGreen	include/color.hpp	/^  static const TCODColor darkGreen;$/;"	m	class:TCODColor
+darkGrey	include/color.hpp	/^	static const TCODColor darkGrey;$/;"	m	class:TCODColor
+darkHan	include/color.hpp	/^  static const TCODColor darkHan;$/;"	m	class:TCODColor
+darkLime	include/color.hpp	/^  static const TCODColor darkLime;$/;"	m	class:TCODColor
+darkMagenta	include/color.hpp	/^  static const TCODColor darkMagenta;$/;"	m	class:TCODColor
+darkOrange	include/color.hpp	/^  static const TCODColor darkOrange;$/;"	m	class:TCODColor
+darkPink	include/color.hpp	/^  static const TCODColor darkPink;$/;"	m	class:TCODColor
+darkPurple	include/color.hpp	/^  static const TCODColor darkPurple;$/;"	m	class:TCODColor
+darkRed	include/color.hpp	/^	static const TCODColor darkRed;$/;"	m	class:TCODColor
+darkSea	include/color.hpp	/^  static const TCODColor darkSea;$/;"	m	class:TCODColor
+darkSepia	include/color.hpp	/^	static const TCODColor darkSepia;$/;"	m	class:TCODColor
+darkSky	include/color.hpp	/^  static const TCODColor darkSky;$/;"	m	class:TCODColor
+darkTurquoise	include/color.hpp	/^  static const TCODColor darkTurquoise;$/;"	m	class:TCODColor
+darkViolet	include/color.hpp	/^  static const TCODColor darkViolet;$/;"	m	class:TCODColor
+darkYellow	include/color.hpp	/^  static const TCODColor darkYellow;$/;"	m	class:TCODColor
+darkerAmber	include/color.hpp	/^  static const TCODColor darkerAmber;$/;"	m	class:TCODColor
+darkerAzure	include/color.hpp	/^  static const TCODColor darkerAzure;$/;"	m	class:TCODColor
+darkerBlue	include/color.hpp	/^  static const TCODColor darkerBlue;$/;"	m	class:TCODColor
+darkerChartreuse	include/color.hpp	/^  static const TCODColor darkerChartreuse;$/;"	m	class:TCODColor
+darkerCrimson	include/color.hpp	/^  static const TCODColor darkerCrimson;$/;"	m	class:TCODColor
+darkerCyan	include/color.hpp	/^  static const TCODColor darkerCyan;$/;"	m	class:TCODColor
+darkerFlame	include/color.hpp	/^  static const TCODColor darkerFlame;$/;"	m	class:TCODColor
+darkerFuchsia	include/color.hpp	/^  static const TCODColor darkerFuchsia;$/;"	m	class:TCODColor
+darkerGreen	include/color.hpp	/^  static const TCODColor darkerGreen;$/;"	m	class:TCODColor
+darkerGrey	include/color.hpp	/^	static const TCODColor darkerGrey;$/;"	m	class:TCODColor
+darkerHan	include/color.hpp	/^  static const TCODColor darkerHan;$/;"	m	class:TCODColor
+darkerLime	include/color.hpp	/^  static const TCODColor darkerLime;$/;"	m	class:TCODColor
+darkerMagenta	include/color.hpp	/^  static const TCODColor darkerMagenta;$/;"	m	class:TCODColor
+darkerOrange	include/color.hpp	/^  static const TCODColor darkerOrange;$/;"	m	class:TCODColor
+darkerPink	include/color.hpp	/^  static const TCODColor darkerPink;$/;"	m	class:TCODColor
+darkerPurple	include/color.hpp	/^  static const TCODColor darkerPurple;$/;"	m	class:TCODColor
+darkerRed	include/color.hpp	/^	static const TCODColor darkerRed;$/;"	m	class:TCODColor
+darkerSea	include/color.hpp	/^  static const TCODColor darkerSea;$/;"	m	class:TCODColor
+darkerSepia	include/color.hpp	/^	static const TCODColor darkerSepia;$/;"	m	class:TCODColor
+darkerSky	include/color.hpp	/^  static const TCODColor darkerSky;$/;"	m	class:TCODColor
+darkerTurquoise	include/color.hpp	/^  static const TCODColor darkerTurquoise;$/;"	m	class:TCODColor
+darkerViolet	include/color.hpp	/^  static const TCODColor darkerViolet;$/;"	m	class:TCODColor
+darkerYellow	include/color.hpp	/^  static const TCODColor darkerYellow;$/;"	m	class:TCODColor
+darkestAmber	include/color.hpp	/^  static const TCODColor darkestAmber;$/;"	m	class:TCODColor
+darkestAzure	include/color.hpp	/^  static const TCODColor darkestAzure;$/;"	m	class:TCODColor
+darkestBlue	include/color.hpp	/^  static const TCODColor darkestBlue;$/;"	m	class:TCODColor
+darkestChartreuse	include/color.hpp	/^  static const TCODColor darkestChartreuse;$/;"	m	class:TCODColor
+darkestCrimson	include/color.hpp	/^  static const TCODColor darkestCrimson;$/;"	m	class:TCODColor
+darkestCyan	include/color.hpp	/^  static const TCODColor darkestCyan;$/;"	m	class:TCODColor
+darkestFlame	include/color.hpp	/^  static const TCODColor darkestFlame;$/;"	m	class:TCODColor
+darkestFuchsia	include/color.hpp	/^  static const TCODColor darkestFuchsia;$/;"	m	class:TCODColor
+darkestGreen	include/color.hpp	/^  static const TCODColor darkestGreen;$/;"	m	class:TCODColor
+darkestGrey	include/color.hpp	/^	static const TCODColor darkestGrey;$/;"	m	class:TCODColor
+darkestHan	include/color.hpp	/^  static const TCODColor darkestHan;$/;"	m	class:TCODColor
+darkestLime	include/color.hpp	/^  static const TCODColor darkestLime;$/;"	m	class:TCODColor
+darkestMagenta	include/color.hpp	/^  static const TCODColor darkestMagenta;$/;"	m	class:TCODColor
+darkestOrange	include/color.hpp	/^  static const TCODColor darkestOrange;$/;"	m	class:TCODColor
+darkestPink	include/color.hpp	/^  static const TCODColor darkestPink;$/;"	m	class:TCODColor
+darkestPurple	include/color.hpp	/^  static const TCODColor darkestPurple;$/;"	m	class:TCODColor
+darkestRed	include/color.hpp	/^  static const TCODColor darkestRed;$/;"	m	class:TCODColor
+darkestSea	include/color.hpp	/^  static const TCODColor darkestSea;$/;"	m	class:TCODColor
+darkestSepia	include/color.hpp	/^	static const TCODColor darkestSepia;$/;"	m	class:TCODColor
+darkestSky	include/color.hpp	/^  static const TCODColor darkestSky;$/;"	m	class:TCODColor
+darkestTurquoise	include/color.hpp	/^  static const TCODColor darkestTurquoise;$/;"	m	class:TCODColor
+darkestViolet	include/color.hpp	/^  static const TCODColor darkestViolet;$/;"	m	class:TCODColor
+darkestYellow	include/color.hpp	/^  static const TCODColor darkestYellow;$/;"	m	class:TCODColor
+data	include/console.hpp	/^	TCOD_console_t data;$/;"	m	class:TCODConsole
+data	include/fov.hpp	/^		TCOD_map_t data;$/;"	m	class:TCODMap
+data	include/image.hpp	/^	void *data;$/;"	m	class:TCODImage
+data	include/lex.hpp	/^	void *data;$/;"	m	class:TCODLex
+data	include/mersenne.hpp	/^		TCOD_random_t data;$/;"	m	class:TCODRandom
+data	include/noise.hpp	/^		TCOD_noise_t data;$/;"	m	class:TCODNoise
+data	include/parser.hpp	/^	TCOD_parser_struct_t data;$/;"	m	class:TCODParserStruct
+data	include/parser.hpp	/^	TCOD_parser_t data;$/;"	m	class:TCODParser
+data	include/path.hpp	/^	TCOD_path_t data;$/;"	m	class:TCODPath
+data	include/path.hpp	/^        TCOD_dijkstra_t data;$/;"	m	class:TCODDijkstra
+data	include/txtfield.hpp	/^	TCOD_text_t data;$/;"	m	class:TCODText
+data	include/zip.hpp	/^	TCOD_zip_t data;$/;"	m	class:TCODZip
+dcx	include/mouse_types.h	/^  int dcx,dcy; \/* movement since last update in console cells *\/$/;"	m	struct:__anon34
+dcy	include/mouse_types.h	/^  int dcx,dcy; \/* movement since last update in console cells *\/$/;"	m	struct:__anon34
+defs	include/parser.hpp	/^	TCODList<TCODParserStruct *> defs;$/;"	m	class:TCODParser
+deleteData	include/image.hpp	/^	bool deleteData;$/;"	m	class:TCODImage
+deltax	include/bresenham.h	/^	int deltax;$/;"	m	struct:__anon21
+deltay	include/bresenham.h	/^	int deltay;$/;"	m	struct:__anon21
+desaturatedAmber	include/color.hpp	/^  static const TCODColor desaturatedAmber;$/;"	m	class:TCODColor
+desaturatedAzure	include/color.hpp	/^  static const TCODColor desaturatedAzure;$/;"	m	class:TCODColor
+desaturatedBlue	include/color.hpp	/^  static const TCODColor desaturatedBlue;$/;"	m	class:TCODColor
+desaturatedChartreuse	include/color.hpp	/^  static const TCODColor desaturatedChartreuse;$/;"	m	class:TCODColor
+desaturatedCrimson	include/color.hpp	/^  static const TCODColor desaturatedCrimson;$/;"	m	class:TCODColor
+desaturatedCyan	include/color.hpp	/^  static const TCODColor desaturatedCyan;$/;"	m	class:TCODColor
+desaturatedFlame	include/color.hpp	/^  static const TCODColor desaturatedFlame;$/;"	m	class:TCODColor
+desaturatedFuchsia	include/color.hpp	/^  static const TCODColor desaturatedFuchsia;$/;"	m	class:TCODColor
+desaturatedGreen	include/color.hpp	/^  static const TCODColor desaturatedGreen;$/;"	m	class:TCODColor
+desaturatedHan	include/color.hpp	/^  static const TCODColor desaturatedHan;$/;"	m	class:TCODColor
+desaturatedLime	include/color.hpp	/^  static const TCODColor desaturatedLime;$/;"	m	class:TCODColor
+desaturatedMagenta	include/color.hpp	/^  static const TCODColor desaturatedMagenta;$/;"	m	class:TCODColor
+desaturatedOrange	include/color.hpp	/^  static const TCODColor desaturatedOrange;$/;"	m	class:TCODColor
+desaturatedPink	include/color.hpp	/^  static const TCODColor desaturatedPink;$/;"	m	class:TCODColor
+desaturatedPurple	include/color.hpp	/^  static const TCODColor desaturatedPurple;$/;"	m	class:TCODColor
+desaturatedRed	include/color.hpp	/^  static const TCODColor desaturatedRed;$/;"	m	class:TCODColor
+desaturatedSea	include/color.hpp	/^  static const TCODColor desaturatedSea;$/;"	m	class:TCODColor
+desaturatedSky	include/color.hpp	/^  static const TCODColor desaturatedSky;$/;"	m	class:TCODColor
+desaturatedTurquoise	include/color.hpp	/^  static const TCODColor desaturatedTurquoise;$/;"	m	class:TCODColor
+desaturatedViolet	include/color.hpp	/^  static const TCODColor desaturatedViolet;$/;"	m	class:TCODColor
+desaturatedYellow	include/color.hpp	/^  static const TCODColor desaturatedYellow;$/;"	m	class:TCODColor
+destx	include/bresenham.h	/^	int destx; $/;"	m	struct:__anon21
+desty	include/bresenham.h	/^	int desty; $/;"	m	struct:__anon21
+dice	include/mersenne.hpp	/^		inline TCOD_dice_t dice (const char * s) { return TCOD_random_dice_new(s); }$/;"	f	class:TCODRandom
+dice	include/parser.h	/^	TCOD_dice_t dice;$/;"	m	union:__anon17
+diceRoll	include/mersenne.hpp	/^		inline int diceRoll (TCOD_dice_t dice) { return TCOD_random_dice_roll(data,dice); }$/;"	f	class:TCODRandom
+diceRoll	include/mersenne.hpp	/^		inline int diceRoll (const char * s) { return TCOD_random_dice_roll(data,TCOD_random_dice_new(s)); }$/;"	f	class:TCODRandom
+dirt	include/libtcod_int.h	/^	uint8 dirt;	\/* cell modified since last flush ? *\/$/;"	m	struct:__anon28
+distribution	include/libtcod_int.h	/^	TCOD_distribution_t distribution;$/;"	m	struct:__anon32
+dx	include/mouse_types.h	/^  int dx,dy; \/* movement since last update in pixels *\/$/;"	m	struct:__anon34
+dy	include/mouse_types.h	/^  int dx,dy; \/* movement since last update in pixels *\/$/;"	m	struct:__anon34
+e	include/bresenham.h	/^	int e;$/;"	m	struct:__anon21
+end	include/list.hpp	/^	T * end() const {$/;"	f	class:TCODList
+end_struct	include/parser.h	/^	bool (*end_struct)(TCOD_parser_struct_t str, const char *name);$/;"	m	struct:__anon18
+error	include/parser.h	/^	void (*error)(const char *msg);$/;"	m	struct:__anon18
+f	include/parser.h	/^	float f;$/;"	m	union:__anon17
+fade	include/libtcod_int.h	/^	uint8 fade;$/;"	m	struct:__anon29
+fade	include/libtcod_int.h	/^	uint8 fade;$/;"	m	struct:__anon33
+fading_color	include/libtcod_int.h	/^	TCOD_color_t fading_color;$/;"	m	struct:__anon33
+false	include/libtcod.h	129;"	d
+fatal	include/parser.h	/^	bool fatal;$/;"	m	struct:__anon20
+father	include/tree.h	/^	struct _TCOD_tree_t *father;$/;"	m	struct:_TCOD_tree_t	typeref:struct:_TCOD_tree_t::_TCOD_tree_t
+father	include/tree.hpp	/^	TCODTree *father;$/;"	m	class:TCODTree
+file_line	include/lex.h	/^	int file_line, token_type, token_int_val, token_idx;$/;"	m	struct:__anon13
+filename	include/lex.h	/^	char *filename;$/;"	m	struct:__anon13
+fillSize	include/list.hpp	/^	int fillSize;$/;"	m	class:TCODList
+flags	include/lex.h	/^	int nb_symbols, nb_keywords, flags;$/;"	m	struct:__anon13
+flags	include/parser.h	/^	TCOD_list_t flags;$/;"	m	struct:__anon19
+flame	include/color.hpp	/^  static const TCODColor flame;$/;"	m	class:TCODColor
+fontNbCharHoriz	include/libtcod_int.h	/^	int fontNbCharHoriz;$/;"	m	struct:__anon33
+fontNbCharVertic	include/libtcod_int.h	/^	int fontNbCharVertic;$/;"	m	struct:__anon33
+font_file	include/libtcod_int.h	/^	char font_file[512];$/;"	m	struct:__anon33
+font_greyscale	include/libtcod_int.h	/^	bool font_greyscale;$/;"	m	struct:__anon33
+font_height	include/libtcod_int.h	/^	int font_height;$/;"	m	struct:__anon33
+font_in_row	include/libtcod_int.h	/^	bool font_in_row;$/;"	m	struct:__anon33
+font_tcod_layout	include/libtcod_int.h	/^	bool font_tcod_layout;$/;"	m	struct:__anon33
+font_width	include/libtcod_int.h	/^	int font_width;$/;"	m	struct:__anon33
+fore	include/libtcod_int.h	/^	TCOD_color_t fore,back,key;$/;"	m	struct:__anon29
+fore	include/libtcod_int.h	/^	TCOD_color_t fore;	\/* foreground color *\/$/;"	m	struct:__anon28
+fov	include/libtcod_int.h	/^	bool fov:1;$/;"	m	struct:__anon30
+fuchsia	include/color.hpp	/^  static const TCODColor fuchsia;$/;"	m	class:TCODColor
+fullscreen	include/libtcod_int.h	/^	bool fullscreen;$/;"	m	struct:__anon33
+fullscreen_height	include/libtcod_int.h	/^	int fullscreen_height;$/;"	m	struct:__anon33
+fullscreen_offsetx	include/libtcod_int.h	/^	int fullscreen_offsetx;$/;"	m	struct:__anon33
+fullscreen_offsety	include/libtcod_int.h	/^	int fullscreen_offsety;$/;"	m	struct:__anon33
+fullscreen_width	include/libtcod_int.h	/^	int fullscreen_width;$/;"	m	struct:__anon33
+g	include/color.h	/^	uint8 r,g,b;$/;"	m	struct:__anon1
+g	include/color.hpp	/^	uint8 r,g,b;$/;"	m	class:TCODColor
+get	include/list.hpp	/^	T get(int idx) const {$/;"	f	class:TCODList
+get	include/mersenne.hpp	/^		inline double get (double min, double max, double mean = 0.0f) { return (mean <= 0.0) ? TCOD_random_get_double(data,min,max) : TCOD_random_get_double_mean(data,min,max,mean); }$/;"	f	class:TCODRandom
+get	include/mersenne.hpp	/^		inline float get (float min, float max, float mean = 0.0f) { return (mean <= 0.0f) ? TCOD_random_get_float(data,min,max) : TCOD_random_get_float_mean(data,min,max,mean); }$/;"	f	class:TCODRandom
+get	include/mersenne.hpp	/^		inline int get (int min, int max, int mean = 0) { return (mean <= 0) ? TCOD_random_get_int(data,min,max) : TCOD_random_get_int_mean(data,min,max,mean); }$/;"	f	class:TCODRandom
+getBuf	include/lex.hpp	/^	char *getBuf() { return ((TCOD_lex_t *)data)->buf; }$/;"	f	class:TCODLex
+getDouble	include/mersenne.hpp	/^		inline double getDouble (double min, double max, double mean = 0.0) { return (mean <= 0) ? TCOD_random_get_double(data,min,max) : TCOD_random_get_double_mean(data,min,max,mean); }$/;"	f	class:TCODRandom
+getFather	include/bsp.hpp	/^	TCODBsp *getFather() const {$/;"	f	class:TCODBsp
+getFileLine	include/lex.hpp	/^	int getFileLine() { return ((TCOD_lex_t *)data)->file_line; }$/;"	f	class:TCODLex
+getFilename	include/lex.hpp	/^	char *getFilename() { return ((TCOD_lex_t *)data)->filename; }$/;"	f	class:TCODLex
+getFloat	include/mersenne.hpp	/^		inline float getFloat (float min, float max, float mean = 0.0f) { return (mean <= 0) ? TCOD_random_get_float(data,min,max) : TCOD_random_get_float_mean(data,min,max,mean); }$/;"	f	class:TCODRandom
+getInt	include/mersenne.hpp	/^		inline int getInt (int min, int max, int mean = 0) { return (mean <= 0) ? TCOD_random_get_int(data,min,max) : TCOD_random_get_int_mean(data,min,max,mean); }$/;"	f	class:TCODRandom
+getLastJavadocComment	include/lex.hpp	/^	char *getLastJavadocComment() { return ((TCOD_lex_t *)data)->last_javadoc_comment; }$/;"	f	class:TCODLex
+getLeft	include/bsp.hpp	/^	TCODBsp *getLeft() const {$/;"	f	class:TCODBsp
+getPos	include/lex.hpp	/^	char *getPos() { return ((TCOD_lex_t *)data)->pos; }$/;"	f	class:TCODLex
+getRight	include/bsp.hpp	/^	TCODBsp *getRight() const {$/;"	f	class:TCODBsp
+getStringLastDelimiter	include/lex.hpp	/^	char getStringLastDelimiter() { return ((TCOD_lex_t *)data)->lastStringDelim; }$/;"	f	class:TCODLex
+getToken	include/lex.hpp	/^	char *getToken() { return ((TCOD_lex_t *)data)->tok; }$/;"	f	class:TCODLex
+getTokenFloatVal	include/lex.hpp	/^	float getTokenFloatVal() { return ((TCOD_lex_t *)data)->token_float_val; }$/;"	f	class:TCODLex
+getTokenIdx	include/lex.hpp	/^	int getTokenIdx() { return ((TCOD_lex_t *)data)->token_idx; }$/;"	f	class:TCODLex
+getTokenIntVal	include/lex.hpp	/^	int getTokenIntVal() { return ((TCOD_lex_t *)data)->token_int_val; }$/;"	f	class:TCODLex
+getTokenName	include/lex.hpp	/^	static const char *getTokenName(int tokenType) { return TCOD_lex_get_token_name(tokenType); }$/;"	f	class:TCODLex
+getTokenType	include/lex.hpp	/^	int getTokenType() { return ((TCOD_lex_t *)data)->token_type; }$/;"	f	class:TCODLex
+getValue	include/heightmap.hpp	/^	inline float getValue(int x, int y) const {$/;"	f	class:TCODHeightMap
+gold	include/color.hpp	/^	static const TCODColor gold;$/;"	m	class:TCODColor
+green	include/color.hpp	/^  static const TCODColor green;$/;"	m	class:TCODColor
+grey	include/color.hpp	/^	static const TCODColor grey;$/;"	m	class:TCODColor
+h	include/bsp.h	/^	int x,y,w,h; \/* node position & size *\/$/;"	m	struct:__anon25
+h	include/bsp.hpp	/^	int x,y,w,h; \/\/ $/;"	m	class:TCODBsp
+h	include/heightmap.h	/^	int w,h;$/;"	m	struct:__anon14
+h	include/heightmap.hpp	/^	int w,h;$/;"	m	class:TCODHeightMap
+h	include/libtcod_int.h	/^	int w,h;$/;"	m	struct:__anon29
+han	include/color.hpp	/^  static const TCODColor han;$/;"	m	class:TCODColor
+haskey	include/libtcod_int.h	/^	bool haskey; \/* a key color has been defined *\/$/;"	m	struct:__anon29
+height	include/libtcod_int.h	/^	int height;$/;"	m	struct:__anon31
+horizontal	include/bsp.h	/^	bool horizontal; \/* horizontal splitting ? *\/$/;"	m	struct:__anon25
+horizontal	include/bsp.hpp	/^	bool horizontal; \/\/ horizontal splitting ?$/;"	m	class:TCODBsp
+i	include/parser.h	/^	int32 i;$/;"	m	union:__anon17
+insertBefore	include/list.hpp	/^	T * insertBefore(const T elt,int before) {$/;"	f	class:TCODList
+int16	include/libtcod.h	/^typedef short int16;$/;"	t
+int32	include/libtcod.h	/^typedef int int32;$/;"	t
+int8	include/libtcod.h	/^typedef char int8;$/;"	t
+intptr	include/libtcod.h	/^typedef long intptr;$/;"	t
+isEmpty	include/list.hpp	/^	bool isEmpty() const {$/;"	f	class:TCODList
+isLeaf	include/bsp.hpp	/^	bool isLeaf() const { return sons == NULL ; }$/;"	f	class:TCODBsp
+javadocCmtStart	include/lex.h	/^	const char *cmtStart, *cmtStop, *javadocCmtStart;$/;"	m	struct:__anon13
+javadoc_read	include/lex.h	/^	bool javadoc_read;$/;"	m	struct:__anon13
+key	include/libtcod_int.h	/^	TCOD_color_t fore,back,key;$/;"	m	struct:__anon29
+keywords	include/lex.h	/^	keywords[ TCOD_LEX_MAX_KEYWORDS ][ TCOD_LEX_KEYWORD_SIZE ];$/;"	m	struct:__anon13
+lalt	include/console_types.h	/^	bool lalt ;$/;"	m	struct:__anon5
+lastStringDelim	include/lex.h	/^	char lastStringDelim;$/;"	m	struct:__anon13
+last_javadoc_comment	include/lex.h	/^	char *last_javadoc_comment;$/;"	m	struct:__anon13
+lbutton	include/mouse_types.h	/^  bool lbutton ; \/* left button status *\/$/;"	m	struct:__anon34
+lbutton_pressed	include/mouse_types.h	/^  bool lbutton_pressed ; \/* left button pressed event *\/ $/;"	m	struct:__anon34
+lctrl	include/console_types.h	/^	bool lctrl ;$/;"	m	struct:__anon5
+lerp	include/color.hpp	/^	static TCODColor lerp(const TCODColor &a, const TCODColor &b, float coef) {$/;"	f	class:TCODColor
+level	include/bsp.h	/^	uint8 level; \/* level in the tree *\/$/;"	m	struct:__anon25
+level	include/bsp.hpp	/^	uint8 level; \/\/ level in the tree $/;"	m	class:TCODBsp
+lightAmber	include/color.hpp	/^  static const TCODColor lightAmber;$/;"	m	class:TCODColor
+lightAzure	include/color.hpp	/^  static const TCODColor lightAzure;$/;"	m	class:TCODColor
+lightBlue	include/color.hpp	/^  static const TCODColor lightBlue;$/;"	m	class:TCODColor
+lightChartreuse	include/color.hpp	/^  static const TCODColor lightChartreuse;$/;"	m	class:TCODColor
+lightCrimson	include/color.hpp	/^  static const TCODColor lightCrimson;$/;"	m	class:TCODColor
+lightCyan	include/color.hpp	/^  static const TCODColor lightCyan;$/;"	m	class:TCODColor
+lightFlame	include/color.hpp	/^  static const TCODColor lightFlame;$/;"	m	class:TCODColor
+lightFuchsia	include/color.hpp	/^  static const TCODColor lightFuchsia;$/;"	m	class:TCODColor
+lightGreen	include/color.hpp	/^  static const TCODColor lightGreen;$/;"	m	class:TCODColor
+lightGrey	include/color.hpp	/^	static const TCODColor lightGrey;$/;"	m	class:TCODColor
+lightHan	include/color.hpp	/^  static const TCODColor lightHan;$/;"	m	class:TCODColor
+lightLime	include/color.hpp	/^  static const TCODColor lightLime;$/;"	m	class:TCODColor
+lightMagenta	include/color.hpp	/^  static const TCODColor lightMagenta;$/;"	m	class:TCODColor
+lightOrange	include/color.hpp	/^  static const TCODColor lightOrange;$/;"	m	class:TCODColor
+lightPink	include/color.hpp	/^  static const TCODColor lightPink;$/;"	m	class:TCODColor
+lightPurple	include/color.hpp	/^  static const TCODColor lightPurple;$/;"	m	class:TCODColor
+lightRed	include/color.hpp	/^	static const TCODColor lightRed;$/;"	m	class:TCODColor
+lightSea	include/color.hpp	/^  static const TCODColor lightSea;$/;"	m	class:TCODColor
+lightSepia	include/color.hpp	/^	static const TCODColor lightSepia;$/;"	m	class:TCODColor
+lightSky	include/color.hpp	/^  static const TCODColor lightSky;$/;"	m	class:TCODColor
+lightTurquoise	include/color.hpp	/^  static const TCODColor lightTurquoise;$/;"	m	class:TCODColor
+lightViolet	include/color.hpp	/^  static const TCODColor lightViolet;$/;"	m	class:TCODColor
+lightYellow	include/color.hpp	/^  static const TCODColor lightYellow;$/;"	m	class:TCODColor
+lighterAmber	include/color.hpp	/^  static const TCODColor lighterAmber;$/;"	m	class:TCODColor
+lighterAzure	include/color.hpp	/^  static const TCODColor lighterAzure;$/;"	m	class:TCODColor
+lighterBlue	include/color.hpp	/^  static const TCODColor lighterBlue;$/;"	m	class:TCODColor
+lighterChartreuse	include/color.hpp	/^  static const TCODColor lighterChartreuse;$/;"	m	class:TCODColor
+lighterCrimson	include/color.hpp	/^  static const TCODColor lighterCrimson;$/;"	m	class:TCODColor
+lighterCyan	include/color.hpp	/^  static const TCODColor lighterCyan;$/;"	m	class:TCODColor
+lighterFlame	include/color.hpp	/^  static const TCODColor lighterFlame;$/;"	m	class:TCODColor
+lighterFuchsia	include/color.hpp	/^  static const TCODColor lighterFuchsia;$/;"	m	class:TCODColor
+lighterGreen	include/color.hpp	/^  static const TCODColor lighterGreen;$/;"	m	class:TCODColor
+lighterGrey	include/color.hpp	/^	static const TCODColor lighterGrey;$/;"	m	class:TCODColor
+lighterHan	include/color.hpp	/^  static const TCODColor lighterHan;$/;"	m	class:TCODColor
+lighterLime	include/color.hpp	/^  static const TCODColor lighterLime;$/;"	m	class:TCODColor
+lighterMagenta	include/color.hpp	/^  static const TCODColor lighterMagenta;$/;"	m	class:TCODColor
+lighterOrange	include/color.hpp	/^  static const TCODColor lighterOrange;$/;"	m	class:TCODColor
+lighterPink	include/color.hpp	/^  static const TCODColor lighterPink;$/;"	m	class:TCODColor
+lighterPurple	include/color.hpp	/^  static const TCODColor lighterPurple;$/;"	m	class:TCODColor
+lighterRed	include/color.hpp	/^  static const TCODColor lighterRed;$/;"	m	class:TCODColor
+lighterSea	include/color.hpp	/^  static const TCODColor lighterSea;$/;"	m	class:TCODColor
+lighterSepia	include/color.hpp	/^	static const TCODColor lighterSepia;$/;"	m	class:TCODColor
+lighterSky	include/color.hpp	/^  static const TCODColor lighterSky;$/;"	m	class:TCODColor
+lighterTurquoise	include/color.hpp	/^  static const TCODColor lighterTurquoise;$/;"	m	class:TCODColor
+lighterViolet	include/color.hpp	/^  static const TCODColor lighterViolet;$/;"	m	class:TCODColor
+lighterYellow	include/color.hpp	/^  static const TCODColor lighterYellow;$/;"	m	class:TCODColor
+lightestAmber	include/color.hpp	/^  static const TCODColor lightestAmber;$/;"	m	class:TCODColor
+lightestAzure	include/color.hpp	/^  static const TCODColor lightestAzure;$/;"	m	class:TCODColor
+lightestBlue	include/color.hpp	/^  static const TCODColor lightestBlue;$/;"	m	class:TCODColor
+lightestChartreuse	include/color.hpp	/^  static const TCODColor lightestChartreuse;$/;"	m	class:TCODColor
+lightestCrimson	include/color.hpp	/^  static const TCODColor lightestCrimson;$/;"	m	class:TCODColor
+lightestCyan	include/color.hpp	/^  static const TCODColor lightestCyan;$/;"	m	class:TCODColor
+lightestFlame	include/color.hpp	/^  static const TCODColor lightestFlame;$/;"	m	class:TCODColor
+lightestFuchsia	include/color.hpp	/^  static const TCODColor lightestFuchsia;$/;"	m	class:TCODColor
+lightestGreen	include/color.hpp	/^  static const TCODColor lightestGreen;$/;"	m	class:TCODColor
+lightestGrey	include/color.hpp	/^	static const TCODColor lightestGrey;$/;"	m	class:TCODColor
+lightestHan	include/color.hpp	/^  static const TCODColor lightestHan;$/;"	m	class:TCODColor
+lightestLime	include/color.hpp	/^  static const TCODColor lightestLime;$/;"	m	class:TCODColor
+lightestMagenta	include/color.hpp	/^  static const TCODColor lightestMagenta;$/;"	m	class:TCODColor
+lightestOrange	include/color.hpp	/^  static const TCODColor lightestOrange;$/;"	m	class:TCODColor
+lightestPink	include/color.hpp	/^  static const TCODColor lightestPink;$/;"	m	class:TCODColor
+lightestPurple	include/color.hpp	/^  static const TCODColor lightestPurple;$/;"	m	class:TCODColor
+lightestRed	include/color.hpp	/^  static const TCODColor lightestRed;$/;"	m	class:TCODColor
+lightestSea	include/color.hpp	/^  static const TCODColor lightestSea;$/;"	m	class:TCODColor
+lightestSepia	include/color.hpp	/^	static const TCODColor lightestSepia;$/;"	m	class:TCODColor
+lightestSky	include/color.hpp	/^  static const TCODColor lightestSky;$/;"	m	class:TCODColor
+lightestTurquoise	include/color.hpp	/^  static const TCODColor lightestTurquoise;$/;"	m	class:TCODColor
+lightestViolet	include/color.hpp	/^  static const TCODColor lightestViolet;$/;"	m	class:TCODColor
+lightestYellow	include/color.hpp	/^  static const TCODColor lightestYellow;$/;"	m	class:TCODColor
+lime	include/color.hpp	/^  static const TCODColor lime;$/;"	m	class:TCODColor
+list	include/parser.h	/^	TCOD_list_t list;$/;"	m	union:__anon17
+listener	include/path.hpp	/^		const ITCODPathCallback *listener;$/;"	m	struct:TCODPath::WrapperData
+listener	include/path.hpp	/^            const ITCODPathCallback *listener;$/;"	m	struct:TCODDijkstra::WrapperData
+lists	include/parser.h	/^	TCOD_list_t lists;$/;"	m	struct:__anon19
+magenta	include/color.hpp	/^  static const TCODColor magenta;$/;"	m	class:TCODColor
+main	src/main.cpp	/^int main() {$/;"	f
+map_t	include/libtcod_int.h	/^} map_t;$/;"	t	typeref:struct:__anon31
+max_font_chars	include/libtcod_int.h	/^	int max_font_chars;$/;"	m	struct:__anon33
+mbutton	include/mouse_types.h	/^  bool mbutton ; \/* middle button status *\/$/;"	m	struct:__anon34
+mbutton_pressed	include/mouse_types.h	/^  bool mbutton_pressed ; \/* middle button pressed event *\/ $/;"	m	struct:__anon34
+mersenne_data_t	include/libtcod_int.h	/^} mersenne_data_t;$/;"	t	typeref:struct:__anon32
+mt	include/libtcod_int.h	/^	uint32 mt[624];$/;"	m	struct:__anon32
+multiplier	include/mersenne_types.h	/^	float multiplier;$/;"	m	struct:__anon22
+name	include/parser.h	/^	char *name; \/* entity type name *\/$/;"	m	struct:__anon19
+nb_faces	include/mersenne_types.h	/^	int nb_faces;$/;"	m	struct:__anon22
+nb_keywords	include/lex.h	/^	int nb_symbols, nb_keywords, flags;$/;"	m	struct:__anon13
+nb_rolls	include/mersenne_types.h	/^	int nb_rolls;$/;"	m	struct:__anon22
+nb_symbols	include/lex.h	/^	int nb_symbols, nb_keywords, flags;$/;"	m	struct:__anon13
+nbcells	include/libtcod_int.h	/^	int nbcells;$/;"	m	struct:__anon31
+new_flag	include/parser.h	/^	bool (*new_flag)(const char *name);$/;"	m	struct:__anon18
+new_property	include/parser.h	/^	bool (*new_property)(const char *propname, TCOD_value_type_t type, TCOD_value_t value);$/;"	m	struct:__anon18
+new_struct	include/parser.h	/^	bool (*new_struct)(TCOD_parser_struct_t str,const char *name);$/;"	m	struct:__anon18
+next	include/tree.h	/^	struct _TCOD_tree_t *next;$/;"	m	struct:_TCOD_tree_t	typeref:struct:_TCOD_tree_t::_TCOD_tree_t
+next	include/tree.hpp	/^	TCODTree *next;$/;"	m	class:TCODTree
+oldbuf	include/libtcod_int.h	/^	char_t *oldbuf; \/* console for last frame *\/$/;"	m	struct:__anon29
+operator !=	include/color.hpp	/^	bool operator != (const TCODColor & c) const {$/;"	f	class:TCODColor
+operator *	include/color.hpp	/^	TCODColor operator * (const TCODColor & a) const {$/;"	f	class:TCODColor
+operator *	include/color.hpp	/^	TCODColor operator *(float value) const {$/;"	f	class:TCODColor
+operator +	include/color.hpp	/^	TCODColor operator + (const TCODColor & a) const {$/;"	f	class:TCODColor
+operator -	include/color.hpp	/^	TCODColor operator - (const TCODColor & a) const {$/;"	f	class:TCODColor
+operator =	include/list.hpp	/^	TCODList<T> & operator = (TCODList<T> const & l2) {$/;"	f	class:TCODList
+operator ==	include/color.hpp	/^	bool operator == (const TCODColor & c) const {$/;"	f	class:TCODColor
+orange	include/color.hpp	/^  static const TCODColor orange;$/;"	m	class:TCODColor
+origx	include/bresenham.h	/^	int origx; $/;"	m	struct:__anon21
+origy	include/bresenham.h	/^	int origy; $/;"	m	struct:__anon21
+peach	include/color.hpp	/^	static const TCODColor peach;$/;"	m	class:TCODColor
+peek	include/list.hpp	/^	T peek() const {$/;"	f	class:TCODList
+pink	include/color.hpp	/^  static const TCODColor pink;$/;"	m	class:TCODColor
+pop	include/list.hpp	/^	T pop() {$/;"	f	class:TCODList
+pos	include/lex.h	/^	char *pos;$/;"	m	struct:__anon13
+position	include/bsp.h	/^	int position; \/* position of splitting *\/$/;"	m	struct:__anon25
+position	include/bsp.hpp	/^	int position; \/\/ position of splitting$/;"	m	class:TCODBsp
+pressed	include/console_types.h	/^	bool pressed ; \/* does this correspond to a key press or key release event ? *\/$/;"	m	struct:__anon5
+printf	include/libtcod_int.h	135;"	d
+printf	include/libtcod_int.h	140;"	d
+props	include/parser.h	/^	TCOD_list_t props;$/;"	m	struct:__anon19
+props	include/parser.h	/^	TCOD_list_t props;$/;"	m	struct:__anon20
+purple	include/color.hpp	/^  static const TCODColor purple;$/;"	m	class:TCODColor
+push	include/list.hpp	/^	void push(const T elt) {$/;"	f	class:TCODList
+r	include/color.h	/^	uint8 r,g,b;$/;"	m	struct:__anon1
+r	include/color.hpp	/^	uint8 r,g,b;$/;"	m	class:TCODColor
+ralt	include/console_types.h	/^	bool ralt ;$/;"	m	struct:__anon5
+rbutton	include/mouse_types.h	/^  bool rbutton ; \/* right button status *\/$/;"	m	struct:__anon34
+rbutton_pressed	include/mouse_types.h	/^  bool rbutton_pressed ; \/* right button pressed event *\/ $/;"	m	struct:__anon34
+rctrl	include/console_types.h	/^	bool rctrl ;$/;"	m	struct:__anon5
+red	include/color.hpp	/^	static const TCODColor red;$/;"	m	class:TCODColor
+remove	include/list.hpp	/^	T *remove(T *elt) {$/;"	f	class:TCODList
+remove	include/list.hpp	/^	void remove(const T elt) {$/;"	f	class:TCODList
+removeFast	include/list.hpp	/^	T *removeFast(T *elt) {$/;"	f	class:TCODList
+removeFast	include/list.hpp	/^	void removeFast(const T elt) {$/;"	f	class:TCODList
+renderer	include/libtcod_int.h	/^	TCOD_renderer_t renderer;$/;"	m	struct:__anon33
+reverse	include/list.hpp	/^	void reverse() {$/;"	f	class:TCODList
+root	include/console.hpp	/^	static TCODConsole *root;$/;"	m	class:TCODConsole
+root	include/libtcod_int.h	/^	TCOD_console_data_t *root;$/;"	m	struct:__anon33
+s	include/parser.h	/^	char *s;$/;"	m	union:__anon17
+savept	include/lex.h	/^	bool savept; \/* is this object a savepoint (no free in destructor) *\/	$/;"	m	struct:__anon13
+sdl_cbk	include/libtcod_int.h	/^	SDL_renderer_t sdl_cbk;$/;"	m	struct:__anon33
+sea	include/color.hpp	/^  static const TCODColor sea;$/;"	m	class:TCODColor
+sepia	include/color.hpp	/^	static const TCODColor sepia;$/;"	m	class:TCODColor
+set	include/list.hpp	/^	void set(const T elt, int idx) {$/;"	f	class:TCODList
+setDistribution	include/mersenne.hpp	/^		inline void setDistribution (TCOD_distribution_t distribution) { TCOD_random_set_distribution(data,distribution); }$/;"	f	class:TCODRandom
+setValue	include/heightmap.hpp	/^	inline void setValue(int x, int y, float v) {$/;"	f	class:TCODHeightMap
+shift	include/console_types.h	/^	bool shift ;$/;"	m	struct:__anon5
+silver	include/color.hpp	/^	static const TCODColor silver;$/;"	m	class:TCODColor
+simpleCmt	include/lex.h	/^	const char *simpleCmt;$/;"	m	struct:__anon13
+size	include/list.hpp	/^	int size() const {$/;"	f	class:TCODList
+sky	include/color.hpp	/^  static const TCODColor sky;$/;"	m	class:TCODColor
+sons	include/tree.h	/^	struct _TCOD_tree_t *sons;$/;"	m	struct:_TCOD_tree_t	typeref:struct:_TCOD_tree_t::_TCOD_tree_t
+sons	include/tree.hpp	/^	TCODTree *sons;$/;"	m	class:TCODTree
+stepx	include/bresenham.h	/^	int stepx;$/;"	m	struct:__anon21
+stepy	include/bresenham.h	/^	int stepy;$/;"	m	struct:__anon21
+stringDelim	include/lex.h	/^	const char *stringDelim;$/;"	m	struct:__anon13
+structs	include/parser.h	/^	TCOD_list_t structs;$/;"	m	struct:__anon19
+structs	include/parser.h	/^	TCOD_list_t structs;$/;"	m	struct:__anon20
+symbols	include/lex.h	/^	char symbols[ TCOD_LEX_MAX_SYMBOLS][ TCOD_LEX_SYMBOL_SIZE ], $/;"	m	struct:__anon13
+tok	include/lex.h	/^	char *tok;$/;"	m	struct:__anon13
+token_float_val	include/lex.h	/^	float token_float_val;$/;"	m	struct:__anon13
+token_idx	include/lex.h	/^	int file_line, token_type, token_int_val, token_idx;$/;"	m	struct:__anon13
+token_int_val	include/lex.h	/^	int file_line, token_type, token_int_val, token_idx;$/;"	m	struct:__anon13
+token_type	include/lex.h	/^	int file_line, token_type, token_int_val, token_idx;$/;"	m	struct:__anon13
+toklen	include/lex.h	/^    int toklen;$/;"	m	struct:__anon13
+transparent	include/libtcod_int.h	/^	bool transparent:1;$/;"	m	struct:__anon30
+tree	include/bsp.h	/^	TCOD_tree_t tree; \/* pseudo oop : bsp inherit tree *\/$/;"	m	struct:__anon25
+true	include/libtcod.h	130;"	d
+turquoise	include/color.hpp	/^  static const TCODColor turquoise;$/;"	m	class:TCODColor
+uint16	include/libtcod.h	/^typedef unsigned short uint16;$/;"	t
+uint32	include/libtcod.h	/^typedef unsigned int uint32;$/;"	t
+uint8	include/libtcod.h	/^typedef unsigned char uint8;$/;"	t
+uintptr	include/libtcod.h	/^typedef unsigned long uintptr;$/;"	t
+userData	include/path.hpp	/^		void *userData;$/;"	m	struct:TCODPath::WrapperData
+userData	include/path.hpp	/^            void *userData;$/;"	m	struct:TCODDijkstra::WrapperData
+values	include/heightmap.h	/^	float *values;$/;"	m	struct:__anon14
+values	include/heightmap.hpp	/^	float *values;$/;"	m	class:TCODHeightMap
+violet	include/color.hpp	/^  static const TCODColor violet;$/;"	m	class:TCODColor
+vk	include/console_types.h	/^	TCOD_keycode_t vk; \/*  key code *\/$/;"	m	struct:__anon5
+vprintf	include/libtcod_int.h	138;"	d
+vprintf	include/libtcod_int.h	141;"	d
+vsnwprintf	include/libtcod.h	161;"	d
+vsnwprintf	include/libtcod.h	164;"	d
+w	include/bsp.h	/^	int x,y,w,h; \/* node position & size *\/$/;"	m	struct:__anon25
+w	include/bsp.hpp	/^	int x,y,w,h; \/\/ $/;"	m	class:TCODBsp
+w	include/heightmap.h	/^	int w,h;$/;"	m	struct:__anon14
+w	include/heightmap.hpp	/^	int w,h;$/;"	m	class:TCODHeightMap
+w	include/libtcod_int.h	/^	int w,h;$/;"	m	struct:__anon29
+walkable	include/libtcod_int.h	/^	bool walkable:1;$/;"	m	struct:__anon30
+wheel_down	include/mouse_types.h	/^  bool wheel_down ; \/* wheel down event *\/$/;"	m	struct:__anon34
+wheel_up	include/mouse_types.h	/^  bool wheel_up ; \/* wheel up event *\/$/;"	m	struct:__anon34
+white	include/color.hpp	/^	static const TCODColor white;$/;"	m	class:TCODColor
+width	include/libtcod_int.h	/^	int width;$/;"	m	struct:__anon31
+window_title	include/libtcod_int.h	/^	char window_title[512];$/;"	m	struct:__anon33
+x	include/bsp.h	/^	int x,y,w,h; \/* node position & size *\/$/;"	m	struct:__anon25
+x	include/bsp.hpp	/^	int x,y,w,h; \/\/ $/;"	m	class:TCODBsp
+x	include/mouse_types.h	/^  int x,y; \/* absolute position *\/$/;"	m	struct:__anon34
+y	include/bsp.h	/^	int x,y,w,h; \/* node position & size *\/$/;"	m	struct:__anon25
+y	include/bsp.hpp	/^	int x,y,w,h; \/\/ $/;"	m	class:TCODBsp
+y	include/mouse_types.h	/^  int x,y; \/* absolute position *\/$/;"	m	struct:__anon34
+yellow	include/color.hpp	/^  static const TCODColor yellow;$/;"	m	class:TCODColor
+~ITCODBspCallback	include/bsp.hpp	/^	virtual ~ITCODBspCallback() {}$/;"	f	class:ITCODBspCallback
+~ITCODParserListener	include/parser.hpp	/^	virtual ~ITCODParserListener(){}$/;"	f	class:ITCODParserListener
+~ITCODPathCallback	include/path.hpp	/^	virtual ~ITCODPathCallback() {}$/;"	f	class:ITCODPathCallback
+~ITCODSDLRenderer	include/sys.hpp	/^	virtual ~ITCODSDLRenderer() {}$/;"	f	class:ITCODSDLRenderer
+~TCODLineListener	include/bresenham.hpp	/^	virtual ~TCODLineListener() {}$/;"	f	class:TCODLineListener
+~TCODList	include/list.hpp	/^	virtual ~TCODList() {$/;"	f	class:TCODList
