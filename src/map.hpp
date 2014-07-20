@@ -8,7 +8,7 @@ class Map {
 
 		Map(int width, int height);
 		~Map();
-		bool isWall(int x, int y) const;
+		bool isWalkable(int x, int y) const;
 		void render() const;
 	protected :
 		Tile *tiles;
