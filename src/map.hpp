@@ -1,7 +1,8 @@
 struct Tile {
 	bool canWalk;
-	Tile() : canWalk(true) {}
+	Tile() : canWalk(false) {}
 };
+
 class Map {
 	public: 
 		int width, height;
@@ -12,6 +13,8 @@ class Map {
 		void render() const;
 	protected :
 		Tile *tiles;
-
-		void setWall(int x, int y);
+		friend class BspListener;
+		void dig (int x, int y, int x1, int y1);
+		void createRoom (bool first, int x, int y, int x1, int y1);
 };
+

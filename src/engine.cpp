@@ -5,12 +5,10 @@
 
 Engine::Engine() {
 	TCODConsole::initRoot(80,50, "asdklei", false);
-	//add NPC
-	actors.push(new Actor(60,13,'@',TCODColor::yellow));
-	map = new Map(80,50);
 	//add player
-	player = new Actor(40,25,'@',TCODColor::white);
+	player = new Actor(40,25,'P',TCODColor::white);
 	actors.push(player);
+	map = new Map(80,45);
 }
 
 Engine::~Engine() {
