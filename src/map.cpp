@@ -33,11 +33,11 @@ class BspListener : public ITCODBspCallback {
 			
 			return true;
 		}
-
 };
 
 Map::Map(int width, int height): width(width), height(height){
 	tiles = new Tile[width*height];
+	map = new TCODMap(width, height);
 	TCODBsp bsp(0, 0, width, height);
 	bsp.splitRecursive(NULL, 8, ROOM_MAX_SIZE, ROOM_MAX_SIZE, 1.5f, 1.5f);
 	BspListener listener(*this);
@@ -46,6 +46,7 @@ Map::Map(int width, int height): width(width), height(height){
 
 Map::~Map() {
 	delete [] tiles;
+	delete map;
 }
 
 void Map::dig(int x, int y, int x1, int y1) {
@@ -61,7 +62,7 @@ void Map::dig(int x, int y, int x1, int y1) {
 	}
 	for (int tilex=x; tilex <= x1; tilex++ ){
 		for (int tiley = y; tiley <= y1; tiley++){
-			tiles[tilex+tiley*width].canWalk=true;
+			map->setProperties(tilex, tiley, true, true);
 		}
 	}
 }
@@ -82,17 +83,42 @@ void Map::createRoom(bool first, int x, int y, int x1, int y1) {
 }
 
 bool Map::isWalkable(int x, int y) const {
-	return tiles[x+y*(width)].canWalk;
+	return map->isWalkable(x,y);
 }
 
 void Map::render() const {
 	static const TCODColor darkWall( 0, 50, 50 );
 	static const TCODColor darkGround( 0, 0, 50 );
+	static const TCODColor lightWall( 50, 150, 150 );
+	static const TCODColor lightGround( 80, 200, 150 );
 
 	for ( int x=0; x < width; x++ ) {
-		for ( int y=0; y < height; y++ ) 
-			TCODConsole::root->setCharBackground( x, y, 
-				isWalkable( x, y ) ? darkGround : darkWall );
+		for ( int y=0; y < height; y++ ) {
+			if ( isInFov(x,y) ) {
+				TCODConsole::root->setCharBackground( x, y, 
+						isWalkable( x, y ) ? lightGround : lightWall );
+
+			}else if ( isExplored(x,y) ){
+				TCODConsole::root->setCharBackground( x, y, 
+						isWalkable( x, y ) ? darkGround : darkWall );
+			}
+		}
 	}
+}
+
+bool Map::isExplored(int x, int y) const {
+	return tiles[x+y*width].explored;
+}
+
+bool Map::isInFov(int x, int y) const {
+	if ( map->isInFov(x, y)) {
+		tiles[x+y*width].explored=true;
+		return true;
+	}
+	return false;
+}
+void Map::computeFov() {
+	map->computeFov(engine.player->x,engine.player->y,
+			engine.fovRadius);
 }
 
