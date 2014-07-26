@@ -5,6 +5,7 @@
 
 static const int ROOM_MAX_SIZE = 12;
 static const int ROOM_MIN_SIZE = 6;
+static const int MAX_ROOM_MONSTERS = 3;
 
 class BspListener : public ITCODBspCallback {
 	private:
@@ -30,7 +31,7 @@ class BspListener : public ITCODBspCallback {
 				lasty = y+ h/2;
 				roomNum++;
 			}
-			
+
 			return true;
 		}
 };
@@ -67,17 +68,22 @@ void Map::dig(int x, int y, int x1, int y1) {
 	}
 }
 
-void Map::createRoom(bool first, int x, int y, int x1, int y1) {
-	dig(x,y,x1,y1);
+void Map::createRoom(bool first, int x1, int y1, int x2, int y2) {
+	dig(x1,y1,x2,y2);
 	//place player in center of first room
 	if (first) {
-		engine.player->x=(x+x1)/2;
-		engine.player->y=(y+y1)/2;
+		engine.player->x=(x1+x2)/2;
+		engine.player->y=(y1+y2)/2;
 	}else{
 		TCODRandom *rng=TCODRandom::getInstance();
-		if (rng->getInt(0,3)==0) {
-			engine.actors.push(new Actor((x+x1)/2, (y+y1)/2, 'D', 
-						TCODColor::yellow));
+		int nbMosters = rng->getInt(0, MAX_ROOM_MONSTERS);
+		while ( nbMosters > 0 ) {
+			int x = rng->getInt(x1,x2);
+			int y = rng->getInt(y1,y2);
+			if ( isWalkable(x,y) ) {
+				addMonster(x,y);
+			}
+			nbMosters--;
 		}
 	}
 }
@@ -120,5 +126,26 @@ bool Map::isInFov(int x, int y) const {
 void Map::computeFov() {
 	map->computeFov(engine.player->x,engine.player->y,
 			engine.fovRadius);
+}
+bool Map::canWalk(int x, int y) const {
+	if ( !isWalkable(x,y) ) return false;
+	for (Actor **iterator = engine.actors.begin(); iterator != engine.actors.end(); iterator++) {
+		Actor *actor = *iterator;
+		if ( actor->x == x && actor->y == y ) {
+			return false;
+		}
+	}
+	return true;
+}
+
+void Map::addMonster(int x, int y) {
+	TCODRandom *rng = TCODRandom::getInstance();
+	if ( rng->getInt(0,100) < 80 ) {
+		engine.actors.push(new Actor(x, y, 'o', "orc", 
+					TCODColor::desaturatedGreen));
+	} else {
+		engine.actors.push(new Actor(x,y, 'T', "troll",
+					TCODColor::darkerGreen));
+	}
 }
 
