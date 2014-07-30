@@ -1,5 +1,3 @@
-#include <stdio.h>
-#include <math.h>
 #include "main.hpp"
 
 //how long, monster track player, after losing his sight
@@ -23,7 +21,7 @@ bool PlayerAi::moveOrAttack(Actor *owner, int targetx, int targety) {
 		Actor *actor = *iterator;
 		if ( actor->destructible && actor->destructible->isDead() && 
 				actor->x == targetx && actor->y == targety ) {
-			printf("There's a %s here\n", actor->name);
+			engine.gui->message(TCODColor::lightGrey, "There's a %s here", actor->name);
 		}
 	}
 	owner->x=targetx;

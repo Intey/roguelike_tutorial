@@ -1,3 +1,6 @@
+#include <math.h>
+#include <stdio.h>
+#include <stdarg.h>
 #include "../include/libtcod.hpp"
 //solve for circular dependence (destructible/attacker/ai <-> actor)
 class Actor;
@@ -6,4 +9,5 @@ class Actor;
 #include "ai.hpp"
 #include "actor.hpp"
 #include "map.hpp"
+#include "gui.hpp"
 #include "engine.hpp"
