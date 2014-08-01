@@ -51,12 +51,17 @@ void Gui::renderBar(int x, int y, int width, const char *name, float value, floa
 	con->printEx(x + width / 2, y, TCOD_BKGND_NONE, TCOD_CENTER, "%s : %g/%g", name, value, maxValue);
 }
 
-Gui::Message::Message(const char *text, const TCODColor &col): col(col) { 
-	this->text = new char[strlen(text)];
+Gui::Message::Message(const char *text, const TCODColor &col): text(strdup(text)), col(col) { 
+	/* C++ like. If use this, should no init in function signature.
+	this->text = new char[strlen(text)+1];
 	strcpy(this->text, text);
+	*/
 }
 
-Gui::Message::~Message() { delete [] text; }
+Gui::Message::~Message() {	
+	free(text); // C like.
+	// delete [] text;  // c++ like
+}
 
 void Gui::message(const TCODColor &col, const char *text, ...) {
 	va_list ap;

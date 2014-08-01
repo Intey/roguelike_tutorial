@@ -4,10 +4,13 @@ class Destructible {
 		float hp;
 		float defence;
 		const char *corpseName;
+
 		Destructible(float maxHp, float defense, const char *corpseName);
+		virtual void die(Actor *owner);
 		inline bool isDead() { return hp <= 0; }
 		float takeDamage(Actor *owner, float damage);
-		virtual void die(Actor *owner);
+		float heal(float amount);
+
 };
 
 class MonsterDestructible : public Destructible {
