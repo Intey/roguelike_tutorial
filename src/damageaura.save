@@ -1,0 +1,35 @@
+### pickable.cpp
+
+DamageAura::DamageAura(float powerUp): powerUp(powerUp) { }
+
+bool DamageAura::pick(Actor *item, Actor *owner) {
+	owner->attacker->attack += powerUp;
+	return Pickable::pick(item, owner);
+}
+
+bool DamageAura::use(Actor *item, Actor *owner) {
+	// this totem can't be used
+	return false;
+}
+
+### pickable.hpp
+
+virtual bool Pickable::pick(...
+
+class DamageAura : public Pickable {
+	public: 
+		float powerUp;
+		DamageAura(float powerUp);
+		bool pick(Actor *item, Actor *owner);
+		bool use(Actor *item, Actor *owner);
+};
+
+### map.cpp
+
+else if ( dice < 100 ) {
+	Actor *DmgAura = new Actor(x,y,'+', "Damage totem", TCODColor::lightRed);
+	DmgAura->blocks = false;
+	DmgAura->pickable = new DamageAura(4);
+	engine.actors.push(DmgAura);
+}
+
