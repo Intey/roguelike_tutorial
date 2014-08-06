@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.hpp"
 
 Actor::Actor(int x, int y, int ch, const char *name, const TCODColor &color): 
@@ -20,5 +19,10 @@ Actor::~Actor() {
 	if (ai)				delete ai;
 	if (pickable)		delete pickable;
 	if (container)		delete container; 
+}
+float Actor::getDistance(int cx, int cy) const {
+	int dx = x - cx;
+	int dy = y - cy;
+	return sqrtf(dx*dx + dy*dy);
 }
 

@@ -5,6 +5,7 @@ class Engine {
 		TCODList<Actor *> actors;
 		Actor *player;
 		Map *map;
+
 		enum GameStatus {
 			STARTUP,
 			IDLE,
@@ -12,6 +13,7 @@ class Engine {
 			VICTORY,
 			DEFEAT
 		} gameStatus;
+
 		int fovRadius;
 		int screenWidth;
 		int screenHeight;
@@ -22,7 +24,12 @@ class Engine {
 
 		void update();
 		void render();
+
 		void sendToBackground(Actor *actor);
+
+		Actor *getClosestMonster(int x, int y, float range) const;
+		bool pickATile(int *x, int *y, float maxRange = 0.0f);
+		Actor *getActor(int x, int y) const;
 
 	private:
 		bool computeFov;

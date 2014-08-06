@@ -168,8 +168,28 @@ void Map::addMonster(int x, int y) {
 }
 
 void Map::addItem(int x, int y) {
-	Actor *healthPotion =  new Actor(x,y,'!',"health potion", TCODColor::violet);
-	healthPotion->blocks=false;
-	healthPotion->pickable = new Healer(10);
-	engine.actors.push(healthPotion);
+	TCODRandom *rng = TCODRandom::getInstance();
+	int dice = rng->getInt(0, 100);
+	if ( dice < 50 ) {
+		Actor *healthPotion =  new Actor(x,y,'*',"health potion", TCODColor::violet);
+		healthPotion->blocks = false;
+		healthPotion->pickable = new Healer(5);
+		engine.actors.push(healthPotion);
+	} else if ( dice < 80 ) {
+		Actor *scrollOfLightingBolt = new Actor(x,y,'#',"scroll of lighting bolt",
+			TCODColor::lightYellow);
+		scrollOfLightingBolt->blocks = false;
+		scrollOfLightingBolt->pickable=new LightingBolt(5,20);
+		engine.actors.push(scrollOfLightingBolt);
+	} else if ( dice < 90 ) {
+		Actor *scrollOfFireball = new Actor(x, y, '^', "scroll of fireball", TCODColor::lightYellow);
+		scrollOfFireball->blocks = false;
+		scrollOfFireball->pickable = new Fireball(3,12);
+		engine.actors.push(scrollOfFireball);
+	} else {
+		Actor *scrollOfConfusion = new Actor(x, y, '%', "scroll of confuse", TCODColor::lightYellow);
+		scrollOfConfusion->blocks = false;
+		scrollOfConfusion->pickable = new Confuser(10,8);
+		engine.actors.push(scrollOfConfusion);
+	}
 }

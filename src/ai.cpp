@@ -84,21 +84,29 @@ void MonsterAi::update(Actor *owner) {
 		moveOrAttack(owner, engine.player->x, engine.player->y);
 	}
 }
-void PlayerAi::handleActionKey(Actor *owner, int ascii) {
+void PlayerAi::handleActionKey(Actor *player, int ascii) {
 	switch(ascii) {
-		case 'g':
+		case 'g': {
+			bool found = false;
+
+			for ( Actor **iterator = engine.actors.begin(); iterator != engine.actors.end(); iterator++)
 			{
 
-			bool found = false;
-			for ( Actor **iterator = engine.actors.begin(); iterator != engine.actors.end(); iterator++){
-				Actor *actor = *iterator;
-				if ( actor->pickable && actor->x == owner->x && actor->y == owner->y ) {
-					if (actor->pickable->pick(actor, owner)) {
+				Actor *item = *iterator;
+
+				if (	
+						item->pickable			&& 
+						item->x == player->x 	&& 
+						item->y == player->y 	) 
+				{
+
+					if ( item->pickable->pick(item, player) ) 
+					{
 						found = true;
-						engine.gui->message(TCODColor::lightGrey, "You pick the %s.",
-								actor->name);
+						engine.gui->message(TCODColor::lightGrey, "You pick the %s.", item->name);
 						break;
-					} else if (! found) {
+
+					} else if ( !found) {
 						found = true;
 						engine.gui->message(TCODColor::red, "Your inventory is full.");
 					}
@@ -112,9 +120,19 @@ void PlayerAi::handleActionKey(Actor *owner, int ascii) {
 			break;
 		case 'i':
 			{
-				Actor *item = chooseFromInventory(owner);
+
+				Actor *item = chooseFromInventory(player);
 				if ( item ) {
-					item->pickable->use(item, owner);
+					item->pickable->use(item, player);
+					engine.gameStatus = Engine::NEW_TURN;
+				}
+			}
+			break;
+		case 'd':
+			{
+				Actor *actor = chooseFromInventory(player);
+				if ( actor ) {
+					actor->pickable->drop(actor, player);
 					engine.gameStatus = Engine::NEW_TURN;
 				}
 			}
@@ -149,5 +167,33 @@ Actor *PlayerAi::chooseFromInventory(Actor *owner) {
 		}
 	}
 	return NULL;
+}
+
+ConfusedMonsterAi::ConfusedMonsterAi(int nbTurns, Ai *oldAi) : 
+	nbTurns(nbTurns), oldAi(oldAi) { }
+
+void ConfusedMonsterAi::update(Actor *owner) {
+	TCODRandom *rng=TCODRandom::getInstance();
+	int dx = rng->getInt(-1,1);
+	int dy = rng->getInt(-1,1);
+	//random move or attack
+	if ( dx != 0 || dy != 0 ) {
+		int destx = owner->x + dx;
+		int desty = owner->y + dy;
+		if ( engine.map->isWalkable(destx, desty) ) {
+			owner->x = destx;
+			owner->y = desty;
+		} else {
+			Actor *actor = engine.getActor(destx, desty);
+			if ( actor ) {
+				owner->attacker->attack(owner, actor);
+			}
+		}
+	}
+
+	if ( --nbTurns == 0 ) { //duration of confuse is over
+		owner->ai = oldAi;
+		delete this;
+	}
 }
 
