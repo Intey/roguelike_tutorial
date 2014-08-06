@@ -1,6 +1,6 @@
 class Pickable {
 	public: 
-		bool pick(Actor *item, Actor *owner);
+		virtual bool pick(Actor *item, Actor *owner);
 		virtual bool use(Actor *item, Actor *target);
 		void drop(Actor *item, Actor *owner);
 };
@@ -30,5 +30,13 @@ class Confuser : public Pickable {
 		int nbTurns;
 		float range;
 		Confuser(int nbTurns, float range);
+		bool use(Actor *item, Actor *owner);
+};
+
+class DamageAura : public Pickable {
+	public: 
+		float powerUp;
+		DamageAura(float powerUp);
+		bool pick(Actor *item, Actor *owner);
 		bool use(Actor *item, Actor *owner);
 };

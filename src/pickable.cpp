@@ -100,3 +100,14 @@ bool Confuser::use(Actor *item, Actor *owner) {
 	return Pickable::use(item, owner);
 }
 
+DamageAura::DamageAura(float powerUp): powerUp(powerUp) { }
+
+bool DamageAura::pick(Actor *item, Actor *owner) {
+	owner->attacker->power += powerUp;
+	return Pickable::pick(item, owner);
+}
+
+bool DamageAura::use(Actor *item, Actor *owner) {
+	// this totem can't be used
+	return false;
+}
